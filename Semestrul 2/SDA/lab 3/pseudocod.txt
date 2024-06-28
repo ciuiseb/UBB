@@ -1,0 +1,13 @@
+Subalgoritm ceaMaiFreqVal(md)
+    *current = md.head
+    cat timp curent != NIL, executa
+        freqs.elems[current.data.second] <- freqs[current.data.second] + 1
+        curent <- curent.uramtor
+    Sf cat timp
+
+    pentru pereche in freqs, executa
+        daca pereche.second > res.second
+            res <- pereche
+        sf daca
+    ceaMaiFreqVal <- res.first
+Sf Sugalgoritm

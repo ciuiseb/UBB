@@ -1,0 +1,20 @@
+Subalgoritm multimeaValorilor(MDO d, vector res)
+    Daca vida(d) = adevarat
+        @ eroare
+    Sf Daca
+	creeazaIterator(d, it)
+    Cat timp valid(it), executa
+		element(it, elem)
+        exista <- fals
+        Pentru pereche in vector, executa
+            Daca valoare.val = elem.val atunci
+                exista <- adevarat
+            Sf daca
+        Sf pentru
+        Daca !exista, atunci
+            adauga(vec, element.val)
+         Sf daca
+         urmator(it)
+     Sf cat timp
+Sf alogritm
+

@@ -1,0 +1,29 @@
+Subalgoritm stergeMax(Matrice m, TElem elementMaxim)
+
+    Daca vida(m), executa
+        @ eroare
+    Sf Daca
+    Pentru i in elemente, excuta
+        Daca valoare(i) > elementMaxim
+            i <- elementMaxim
+        Sf daca
+    getKey(maxim, curent)
+	anterior <- -1
+    Cat timp(val(curent) <> maxim ) {<> e !=}
+    anterior <- curent
+        curent <- urm.el[curent]
+    Sf cat timp
+    Daca(urm.el[curent]) = -1
+        urm.el[anterior] = -1
+    Sf daca
+    Daca anterior = -1, atunci
+        oldValue <- val(curent)
+        modifica(randcurent, coloanacurenta, -1)
+        stergeMax <- oldVal
+    Altfel
+        urm[anterior] <- urm[curent];
+        oldVal <- val(curent);
+        modifica(pairRow(curent), pairColumn(curent), -1);
+        stergeMax <- oldVal
+    Sf daca
+Sf Sugalgoritm

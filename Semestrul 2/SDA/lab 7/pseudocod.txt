@@ -1,0 +1,15 @@
+{am adaugat o stiva ca si atribut, care se actualizeaza la fiecare urmator() - removed}
+
+Subalgoritm revinoKPasi(IteratorPreordine it, k)
+	daca it.removed.n < k, atunci 
+		@eroare
+	sf daca 
+	
+	pentru i =1,k, executa
+		sterge(it.removed)
+	sf pentru 
+	
+	it.curent <- top(it.removed)
+	sterge(it.removed)
+	
+Sf subalgoritm

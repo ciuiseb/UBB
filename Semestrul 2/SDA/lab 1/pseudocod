@@ -1,0 +1,14 @@
+Subalgoritm valid_anterior(im)
+    daca im.index >= 0 executa
+        valid_anterior <- true
+	sf daca
+        valid_anterior <- false
+Sf_alg
+
+Subalgoritm anterior(im)
+    daca valid_anterior(im) executa
+        im.index--
+    altfel
+        @ out_of_range
+	sf daca
+Sf_alg
