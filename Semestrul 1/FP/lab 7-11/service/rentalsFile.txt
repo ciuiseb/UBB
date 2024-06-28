@@ -1,0 +1,8 @@
+padurea adormita,horror,9.2,2,Alex Alexandrescu,1930518523029,1
+test,horror,9.0,1,Alex Alexandrescu,1930518523029,2
+dont mess with zohan,comedy,8.0,3,Vasile Vasilescu,5050802303506,3
+test,horror,9.0,1,Maria Mariescu,6000905141791,4
+vestul imblanzit,western,6.0,4,Maria Mariescu,6000905141791,6
+dont mess with zohan,comedy,8.0,3,Maria Mariescu,6000905141791,7
+mess with zohan,comedy,0.0,5,Vasile Vasilescu,1951005330651,8
+vestul imblanzit,western,6.0,4,Vasile Vasilescu,1951005330651,9
