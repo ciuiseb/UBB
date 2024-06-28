@@ -1,0 +1,10 @@
+1,denumire1,tip1,2
+2,denumire veche,tip vechi,4
+3,denumire3,tip1,2
+4,denumire4,tip1,2
+5,denumire5,tip4,2
+6,denumire6,tip1,2
+7,denumire7,tip2,2
+8,denumire8,tip2,2
+9,denumire8,tip2,1
+10,denumire9,tip1,2

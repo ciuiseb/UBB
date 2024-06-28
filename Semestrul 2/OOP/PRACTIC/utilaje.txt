@@ -1,0 +1,9 @@
+2,aaaaaa,aaaa,2
+1,aaaaaa,aaaa,1
+3,bb,sghrethth,2
+8,aaa,tip1,4
+4,aaa,tip1,8
+6,aaaaaa,tip2,4
+7,denumire7,tip2,4
+5,denumire5,tip4,2
+9,denumire9,tip4,8
