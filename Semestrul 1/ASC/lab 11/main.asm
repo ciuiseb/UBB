@@ -14,6 +14,8 @@ section data use32 class data
 
     input_buffer db 0,0,0,0
 section code use32 class code
+;TODO
+;11.Se citeste de la tastatura un sir de mai multe numere in baza 2. Sa se afiseze aceste numere in baza 16.
 
 start:
     read_input:

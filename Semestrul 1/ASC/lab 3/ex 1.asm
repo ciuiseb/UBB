@@ -10,8 +10,9 @@ segment data use32 class=data
     c dd 1
     d dq 10
 
-; our code starts here
+;TODO
 ;(d-c)+(b-a)-(b+b+b)
+;Expected restul
 ; 10-1 + 1-1 - 3 = 6
 segment code use32 class=code
     start:

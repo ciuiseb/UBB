@@ -10,11 +10,14 @@ segment data use32 class = data:
     b db 1
     c db 1
     x dq 1
-    
+;TODO
+;(a+b)/(2-b*b+b/c)-x; a-doubleword; b,c-byte; x-qword
+;Expected result:
+;2 / 2 - 1 = 0
 segment code use32 class = code:
     start:
-        ;(a+b)/(2-b*b+b/c)-x; a-doubleword; b,c-byte; x-qword
-        ;2 / 2 - 1 = 0
+        
+        
         mov eax, 0
         mov ax, [a]
         add al, [b]

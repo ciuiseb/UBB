@@ -19,7 +19,8 @@ segment data use32 class = data
     
     nr dw 0,0
     format db "%c"
-;Se da un nume de fisier (definit in segmentul de date). 
+;TODO
+;11.Se da un nume de fisier (definit in segmentul de date). 
 ;Sa se creeze un fisier cu numele dat, 
 ;apoi sa se citeasca de la tastatura cuvinte si sa se scrie in fisier cuvintele citite pana cand se citeste de la tastatura caracterul '$'.
 

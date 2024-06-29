@@ -9,9 +9,10 @@ segment data use32 class=data:
     len equ ($-a) / 4
     b1 times len dw 0
     b2 times len dw 0
-    ;Se da un sir A de dublucuvinte. Construiti doua siruri de octeti  
-    ;- B1: contine ca elemente partea superioara a cuvintelor superioare din A
-    ;- B2: contine ca elemente partea inferioara a cuvintelor inferioare din A
+;TODO (fara operatii pe siruri)
+;11.Se da un sir A de dublucuvinte. Construiti doua siruri de octeti  
+;- B1: contine ca elemente partea superioara a cuvintelor superioare din A
+;- B2: contine ca elemente partea inferioara a cuvintelor inferioare din A
 segment code use32 class=code:
     start:
         mov ecx, len

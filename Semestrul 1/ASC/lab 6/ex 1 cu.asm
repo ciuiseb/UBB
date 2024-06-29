@@ -9,8 +9,8 @@ segment data use32 class = data
     len_a equ ($ - a)/4
     b1 times len_a dw 0 ; parte superioara 
     b2 times len_a dw 0 ; parte inferioara
-
-;Se da un sir A de dublucuvinte. Construiti doua siruri de octeti  
+;TODO (folosind operatii pe siruri)
+;11.Se da un sir A de dublucuvinte. Construiti doua siruri de octeti  
 ; - B1: contine ca elemente partea superioara a cuvintelor superioare din A
 ; - B2: contine ca elemente partea inferioara a cuvintelor inferioare din A
 segment code use32 class = code 

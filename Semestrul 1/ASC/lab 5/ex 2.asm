@@ -11,6 +11,7 @@ segment data use32 class=data
     len_s2 equ $ - s2
     len equ $-s1
     d times len db 1
+;TODO
 ;12. Se dau doua siruri de caractere S1 si S2. 
 ; Sa se construiasca sirul D prin concatenarea elementelor de pe pozitiile pare din S2 
 ; cu elementele de pe pozitiile impare din S1.

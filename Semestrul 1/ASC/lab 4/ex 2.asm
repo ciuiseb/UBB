@@ -1,27 +1,24 @@
-bits 32 ; assembling for the 32 bits architecture
+bits 32 
 
-; declare the EntryPoint (a label defining the very first instruction of the program)
 global start        
 
-; declare external functions needed by our program
-extern exit               ; tell nasm that exit exists even if we won't be defining it
-import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
-                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+extern exit              
+import exit msvcrt.dll    
 
-; our data is declared here (the variables needed by our program)
 segment data use32 class=data
     a dw 1010_0110_0000_1101b ; = A60D
     b db 1001_1111b
     c dd 1
     ; 1001_1111__1010_0110_0000_1101__1111__1000
     ; 9FA6 0DF8
+	
+;TODO
 ; 9. Se de cuvantul A si octetul B. Sa se obtina dublucuvantul C astfel:
 ; bitii 0-3 ai lui C coincid cu bitii 6-9 ai lui A 
 ; bitii 4-5 ai lui C au valoarea 1
 ; bitii 6-7 ai lui C coincid cu bitii 1-2 ai lui B
 ; bitii 8-23 ai lui C coincid cu bitii lui A
 ; bitii 24-31 ai lui C coincid cu bitii lui B
-; our code starts here
 segment code use32 class=code
     start:
         mov ebx, 0

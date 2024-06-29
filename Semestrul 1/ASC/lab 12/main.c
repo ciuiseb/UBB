@@ -1,5 +1,5 @@
 /*
-Se citeste de la tastatura un sir de mai multe numere in baza 2. Sa se afiseze aceste numere in baza 16.
+11.Se citeste de la tastatura un sir de mai multe numere in baza 2. Sa se afiseze aceste numere in baza 16.
 */
 
 #include <stdio.h>

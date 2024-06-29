@@ -10,10 +10,12 @@ segment data use32 class = data:
     b dw 1
     c dd 1
     d dq 1
+;TODO
+;d-(a+b+c)-(a+a)
+;Expected result
+; 1 - 3 - 2 = -4
 segment code use32 class = code:
     start:
-    ;d-(a+b+c)-(a+a)
-    ; 1 - 3 - 2 = -4
         mov ebx, [d]
         mov ecx, [d+4] ; ecx:ebx = d
         
