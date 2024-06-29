@@ -1,4 +1,5 @@
 import math
+# 1.Gasiti primul numar prim mai mare decat un numar dat
 def prim(x):
     if x < 2:
         return False
