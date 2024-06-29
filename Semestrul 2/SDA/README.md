@@ -12,4 +12,4 @@
 [Rare Matrix](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%206) - implemented using a hash table(with collisions resolution using interwoven lists)
 
 ## Lab 7
-[Binary Tree](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%207) - implemented using a SLL (with links represented as nodes)
+[Binary Tree](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%207) - implemented using a LL (with links represented as nodes)
