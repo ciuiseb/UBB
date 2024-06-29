@@ -15,7 +15,7 @@
 [Insertion sort and comb sort](https://github.com/ciuiseb/UBB/blob/main/Semestrul%201/FP/lab%207-11/functions/sortari.py)
 
 ## Lab 13
-[Generating all subsequences of a list using recursive, as well as iterative backtracking](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/lab%2013)
+Generating all subsequences of a list using [recursive](https://github.com/ciuiseb/UBB/blob/main/Semestrul%201/FP/lab%2013/recursiv.py), as well as [iterative](https://github.com/ciuiseb/UBB/blob/main/Semestrul%201/FP/lab%2013/iterativ.py) backtracking
 
 ## Practical exam
 [Solution](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/Practic)
