@@ -1,6 +1,6 @@
 # Fundamentals of Programming
 ## Lab 2
-[Some easy algs](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/lab%202)
+[Some easy problems](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/lab%202)
 
 ## Lab 3
 [Basic app with a console interface](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/lab%203)
