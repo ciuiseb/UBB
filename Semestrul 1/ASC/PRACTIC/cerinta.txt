@@ -1,0 +1,11 @@
+Se citeste un numar natural 'l' si siruri de caractere pana la intalnirea lui $.
+Sa se scrie in fisiereul 'cuvinte2.txt' cele care au lungimea 'l' si contin cel putin unul dintre caracterele !@#%-+*&)(
+
+Exemplu:
+
+Input:
+3
+;un! me-e d@i sapt# opt ban@ane a* &mar ba+ (*) $
+
+Output:
+un! d@i opt ba+ (*) 
