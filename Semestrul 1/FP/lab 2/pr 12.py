@@ -1,4 +1,8 @@
 import math
+#12.Determinati al n-lea element al sirului
+# 1,2,3,2,5,2,3,7,2,3,2,5,...
+# obtinut din sirul numerelor naturale prin inlocuirea numerelor compuse prin
+# divizorii lor primi, fara a retine termenii sirului.
 def prim(n):
     if n < 1:
         return False
