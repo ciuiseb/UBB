@@ -1,3 +1,4 @@
+#10. Pentru un numar natural n dat gasiti numarul natural minim m format cu aceleasi cifre.
 def creareNumar(l):
     m = 0
     for i in range(0,10):
