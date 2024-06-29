@@ -6,7 +6,7 @@
 [Travel offers manager console app using layered architecture, written in C++](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP/lab%206-9)
 
 ## Lab 7
-[Implemented my own vector using a DLL](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP/lab%206-9/my_vector(lab%207))
+[Implemented my own dynamic vector using a DLL](https://github.com/ciuiseb/UBB/blob/main/Semestrul%202/OOP/lab%206-9/my_vector(lab%207)/vector.h)
 
 ## Lab 8 - 9
 Added a [wishlist manager](https://github.com/ciuiseb/UBB/blob/main/Semestrul%202/OOP/lab%206-9/wishlist.h) and an undo functionality, using polymorphism.
