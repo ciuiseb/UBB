@@ -1,4 +1,4 @@
-# Computer Science homeworks assignments @ Babes-Bolyai University
+# Computer Science homework assignments @ Babes-Bolyai University
 
 ## First semester
   + [Computer Systems Architecture](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/ASC)
