@@ -3,7 +3,7 @@
 [Set](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%201) - implemented using a dynamic vector
 
 ## Lab 3 
-[MultiDictionary](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%203) - implemented using a DLL (with the representation of the links as nodes)
+[MultiDictionary](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%203) - implemented using a DLL (with the links representation as nodes)
 
 ## Lab 4
 [Ordered MultiDictionary](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%204) - implemented using a DLL (with the representation of the links on a dynamic array)
@@ -12,4 +12,4 @@
 [Rare Matrix](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%206) - implemented using a hash table(with collisions resolution using interwoven lists)
 
 ## Lab 7
-[Binary Tree](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%207) - implemented using a SLL (with the representation of the links as nodes)
+[Binary Tree](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA/lab%207) - implemented using a SLL (with the links representation as nodes)
