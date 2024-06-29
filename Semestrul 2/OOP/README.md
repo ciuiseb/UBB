@@ -1,4 +1,4 @@
-# Fundamentals of Programming
+# Object oriented programming
 ## Lab 2 - 4
 [Property manager console app using layered architecture, written in C](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP/lab%202)
 
