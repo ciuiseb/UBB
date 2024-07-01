@@ -1,6 +1,6 @@
 # Object oriented programming
 ## Lab 2 - 4
-[Property manager console app using layered architecture, written in C](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/OOP/lab%202)
+[Property manager console app using layered architecture, written in C](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP/lab%202-4)
 
 ## Lab 6 
 [Travel offers manager console app using layered architecture, written in C++](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP/lab%206-9)
