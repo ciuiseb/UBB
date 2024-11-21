@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ubb.scs.map.controller.gui.AdminDashboardController"
+      spacing="10"
+      style="-fx-padding: 10;"
+      stylesheets="@../css/admin.css">
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Label text="Admin Dashboard" style="-fx-font-size: 18; -fx-font-weight: bold;"/>
+        <Region HBox.hgrow="ALWAYS"/>
+        <Button fx:id="logoutButton" text="Logout"/>
+    </HBox>
+
+    <HBox spacing="10">
+        <TextField fx:id="searchField" promptText="Search by name..." HBox.hgrow="ALWAYS"/>
+        <Button fx:id="searchButton" text="Search"/>
+    </HBox>
+
+    <TableView fx:id="usersTable" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="idColumn" text="ID" prefWidth=".05"/>
+            <TableColumn fx:id="usernameColumn" text="Username" prefWidth=".3"/>
+            <TableColumn fx:id="firstNameColumn" text="First Name" prefWidth=".3"/>
+            <TableColumn fx:id="lastNameColumn" text="Last Name" prefWidth=".3"/>
+            <TableColumn fx:id="rankColumn" text="Permissions" prefWidth=".05"/>
+        </columns>
+        <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY"/>
+        </columnResizePolicy>
+    </TableView>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="deleteUserButton" text="Delete User"/>
+        <Button fx:id="banUserButton" text="Ban User"/>
+        <Button fx:id="unBanUserButton" text="Unban User"/>
+    </HBox>
+</VBox>

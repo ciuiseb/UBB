@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ubb.scs.map.controller.gui.LoginController"
+      spacing="10"
+      alignment="CENTER"
+      prefWidth="400"
+      prefHeight="300"
+      stylesheets="@../css/login.css">
+
+    <padding>
+        <Insets top="20" right="40" bottom="20" left="40"/>
+    </padding>
+
+    <Label text="Social Network"
+           styleClass="title-label"
+           style="-fx-font-size: 24px; -fx-font-weight: bold;"/>
+
+    <VBox spacing="5">
+        <Label text="Username"/>
+        <TextField fx:id="usernameField"
+                   promptText="Enter username"
+                   prefWidth="300"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="Password"/>
+        <PasswordField fx:id="passwordField"
+                       promptText="Enter password"
+                       prefWidth="300"/>
+    </VBox>
+
+    <Label fx:id="errorLabel"
+           wrapText="true"
+           maxWidth="300"
+           alignment="CENTER"/>
+
+    <HBox spacing="10" alignment="CENTER">
+        <Button fx:id="loginButton"
+                text="Login"
+                defaultButton="true"
+                prefWidth="140"/>
+
+        <Button fx:id="signUpButton"
+                text="Sign Up"
+                prefWidth="140"/>
+    </HBox>
+</VBox>

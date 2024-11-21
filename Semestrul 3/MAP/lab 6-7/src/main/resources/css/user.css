@@ -1,0 +1,80 @@
+.root {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #0096ff;
+    -fx-text-fill: white;
+    -fx-background-radius: 3;
+}
+
+.button:hover {
+    -fx-background-color: #1aa7ff;
+}
+
+.button:pressed {
+    -fx-background-color: #0077cc;
+}
+
+.button:disabled {
+    -fx-background-color: #404040;
+    -fx-text-fill: #808080;
+}
+
+.text-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #808080;
+}
+
+.table-view {
+    -fx-background-color: #1a1a1a;
+    -fx-table-cell-border-color: #404040;
+}
+
+.table-view .column-header {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: white;
+}
+
+.table-view .table-cell {
+    -fx-text-fill: white;
+}
+
+.table-row-cell {
+    -fx-background-color: #1a1a1a;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #262626;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #0096ff;
+}
+
+.split-pane {
+    -fx-background-color: #1a1a1a;
+}
+
+.split-pane:horizontal > .split-pane-divider {
+    -fx-background-color: #404040;
+    -fx-padding: 0 1 0 1;
+}
+
+.scroll-bar {
+    -fx-background-color: #262626;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #404040;
+}
