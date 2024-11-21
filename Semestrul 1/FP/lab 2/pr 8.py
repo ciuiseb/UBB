@@ -1,3 +1,4 @@
+# 8. Pentru un numar natural n dat gasiti numarul natural maxim m format cu aceleasi cifre. Ex. n=3658, m=8653.
 def creareNumar(lista):
     x=0
     for i in range(9,-1,-1):

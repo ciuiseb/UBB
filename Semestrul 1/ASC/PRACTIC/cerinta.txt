@@ -9,3 +9,5 @@ Input:
 
 Output:
 un! d@i opt ba+ (*) 
+
+# scrisa din amintiri

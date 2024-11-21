@@ -1,4 +1,7 @@
 import math
+# 4. Dandu-se numarul natural n, determina numerele prime p1 si p2 astfel ca
+# n = p1 + p2
+# (verificarea ipotezei lui Goldbach).
 def prim(x):
     if x < 2:
         return False
