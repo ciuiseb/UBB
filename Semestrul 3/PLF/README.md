@@ -9,7 +9,7 @@
 [Backtracking huh](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/P3)
 
 ## Prolog practical exam
-[Solution](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/lab%20)
+[Solution](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/Prolog%20practic)
 
 ## L1
 []()
