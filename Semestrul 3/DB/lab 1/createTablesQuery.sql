@@ -33,20 +33,6 @@ CREATE TABLE ProductsComposition(
 	FOREIGN KEY (material_id) REFERENCES Materials(id)
 )
 
--- creating some connections
-INSERT INTO ProductsComposition (product_id, material_id) VALUES 
-(1, 1),
-(1, 5),
-(2, 2),
-(2, 3),
-(2, 7),
-(3, 4),
-(3, 1),
-(4, 1),
-(4, 3),
-(5, 1),
-(5, 6);
-
 -- creating the Clients table, which may represent individual shops, or corporations; they have a name and an id
 CREATE TABLE Clients(
 	id INT IDENTITY (1,1), 
