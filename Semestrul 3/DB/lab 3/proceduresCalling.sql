@@ -82,15 +82,10 @@ BEGIN
 END;
 GO
 
-EXEC proc_UpgradeToVersion 5;
+--EXEC proc_UpgradeToVersion 5;
 
-EXEC proc_DowngradeToVersion 0;
+--EXEC proc_DowngradeToVersion 0;
 
-SELECT ISNULL(MAX(version_id),0) FROM DatabaseVersions;
+--SELECT ISNULL(MAX(version_id),0) FROM DatabaseVersions;
 
-SELECT * FROM DatabaseVersions;
-
-DROP PROCEDURE IF EXISTS proc_ImplementVersion;
-DROP PROCEDURE IF EXISTS proc_UndoVersion;
-DROP PROCEDURE IF EXISTS proc_UpgradeToVersion;
-DROP PROCEDURE IF EXISTS proc_DowngradeToVersion;
+--SELECT * FROM DatabaseVersions;
