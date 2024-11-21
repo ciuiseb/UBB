@@ -1,0 +1,14 @@
+a)
+sterg(l1..ln) = {Ø daca n = 0
+                {Ø daca n = 2, l1 = l2 -1
+                {l daca n = 1
+                {{l1, l2} daca n = 2, l1 =/= l2 -1
+                {sterg(l2..ln) daca n > 3, l1 = l2 -1, l2 = l3 -1
+                {sterg(l3..ln) daca n > 3, l1 = l2 -1, l2 =/= l3 -1
+                {{l1} U sterg(l2..ln) daca n > 3, l1 =/= l2 -1
+
+b)
+sterge_sublista(l1..ln) =   {Ø daca n = 0
+                            {l1 U sterge_sublista(l2..ln) daca  l1 nu e lista
+                            {sterg(l1) U sterge_sublista(l2..ln), daca l1 e lista si m > 0 [m = card(sterg(l1))]
+                            {sterge_sublista(l2..ln), daca l1 e lista si m = 0

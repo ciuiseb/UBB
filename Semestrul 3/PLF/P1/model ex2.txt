@@ -1,0 +1,20 @@
+a) cmmmc_lista(l1..ln)
+{l1, n = 1
+{cmmmc(l1, cmmmc_lista(l2..ln)), n > 2
+
+cmmmc(a, b)
+{a*b / cmmdc(a,b)
+
+cmmdc(a, b)
+{a, a = b
+{cmmdc(a-b, b), a > b
+{cmmdc(a, b-a), b > a
+
+b)
+insert_2(l1..ln, v)
+{add(l1..ln, v, 1, 1)
+
+add(l1..ln, v, curent, target)
+{m vida, n = 0
+{l1 U v U add(l2..ln, curent + 1, target*2), n > 0 and curent = target 
+{l1 U add(l2..ln, curent + 1, target), n > 0 and curent != target 

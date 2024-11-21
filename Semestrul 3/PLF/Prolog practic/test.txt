@@ -1,0 +1,15 @@
+transforma(l1..ln) = dubleaza_pare(elimina_negative(l1..ln))
+
+dubleaza_pare(l1..ln) = 
+                {m vida, n = 0
+                {l1 U dubleaza_pare(l2..ln), n > 0 si l1 % 2 == 1
+                {l1 U l1 U dubleaza_pare(l2..ln), n > 0 si l1 % 2 == 0
+
+elimina_negative(l1..ln) = elmina_aux(l1..ln, 0)
+
+elmina_aux(l1,l2..ln, flag) = 
+                {m vida, n = 0
+                {l1 U elmina_aux(l2..ln, 0), n > 0 si l1 > 0
+                {l1 U elmina_aux(l2..ln, 1), n > 0 si l1 < 0 si flag = 0 si l2 > 0
+                {elmina_aux(l2..ln, 1), n > 0 si l1 < 0 si flag = 1
+                {elmina_aux(l2..ln, 1), n > 0 si l1 < 0 si flag = 0 si l2 < 0
