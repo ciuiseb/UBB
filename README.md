@@ -6,7 +6,7 @@
 ## Second semester
   + [Object oriented programming](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP)
   + [Data structures and algorithms](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA)
-## Thirs semester
+## Third semester
   + [Advanced Programming Methods](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/OOP)
   + [Logical and Functional Programming](https://github.com/ciuiseb/UBB/tree/main/Semestrul%202/SDA)
   + [Computer Networks]()
