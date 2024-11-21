@@ -40,11 +40,6 @@ public class MainApplication extends Application {
 
     }
 
-    @Override
-    public void stop() {
-        // Cleanup code when application closes
-        // Add any necessary cleanup for your repositories/service
-    }
 
     public static void main(String[] args) {
         launch(args);
