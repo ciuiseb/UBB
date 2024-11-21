@@ -101,14 +101,3 @@ BEGIN
     DELETE FROM DatabaseVersions WHERE version_id = 5;
 END;
 GO
-
-DROP PROCEDURE proc_ChangeEngineerSalaryToDecimal;
-DROP PROCEDURE proc_AddDefaultStockToProducts;
-DROP PROCEDURE proc_CreateNewDepartmentTable;
-DROP PROCEDURE proc_AddManagerToFactories;
-DROP PROCEDURE proc_AddMaterialsFKToProducts;
-DROP PROCEDURE proc_UndoEngineerSalaryToInt;
-DROP PROCEDURE proc_RemoveDefaultStockFromProducts;
-DROP PROCEDURE proc_DropNewDepartmentTable;
-DROP PROCEDURE proc_RemoveManagerFromFactories;
-DROP PROCEDURE proc_RemoveMaterialsFKFromProducts;
