@@ -1,0 +1,3 @@
+Clientii tip TCP trimit pe unul dintre cele 2 porturi un sir de numere, si primesc inapoi maximul sirului.
+Clientii tip UDP primesc pe un alt port maximul global.
+Local host, multi-threaded
