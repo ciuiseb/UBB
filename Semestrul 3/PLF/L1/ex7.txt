@@ -1,0 +1,35 @@
+a) 
+is_linear(l1..ln) =
+    {true, n = 0
+    {false, n > 0 si l1 = lista
+    {is_linear(l2..ln), n > 0 si l1 = atom
+
+b)
+replace_c(l1..ln, target, value) =
+    {vida, n = 0
+    {value ∪ l2..ln, if n > 0 și l1 == target 
+    {replace_c(l1, target, value) ∪ l2..ln, if n > 0 și l1 = lista și find_c(l1..ln, target)
+    {l1 ∪ replace_c(l2..ln, target, value), if n > 0
+
+find_c(l1..ln, target) = 
+    {false, n = 0
+    {find_c(l1, target), n > 0 si l1 = lista
+    {true, n > 0 si l1 = atom numeric si l1 = target
+    {find_c(l2..ln), altfel
+c)
+replace_sublists(l1..ln) = 
+    {m vida, n = 0
+    {last_c(l1) U replace_sublists(l2..ln), n > 0 si l1 = lista 
+    {l1 U replace_sublists(l2..ln), altfel
+last_c(l1..ln) = 
+    {l1, n = 1 si l1 e atom 
+    {last_c(l1),  n >= 1 si e lista
+    {last_c(l2..ln), altfel
+d)
+interclasare(l1..ln, k1..km) = 
+{m vida, n = 0 si m = 0
+{k1..km, n = 0 si m > 0
+{l1..lm, n > 0 si m = 0
+{l1 U interclasare(l2..ln, k1..km), n > 0 si m > 0 si l1 < k1
+{k1 U interclasare(l1..ln, k2..km), n > 0 si m > 0 si l1 > k1
+{l1 U interclasare(l2..ln, k2..km), altfel

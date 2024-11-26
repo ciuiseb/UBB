@@ -1,0 +1,64 @@
+.root {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.title-label {
+    -fx-padding: 0 0 20 0;
+    -fx-text-fill: #ffffff;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #808080;
+    -fx-padding: 8;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: #404040;
+    -fx-border-width: 1;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #0096ff;
+    -fx-background-color: #404040;
+}
+
+.button {
+    -fx-background-color: #0096ff;
+    -fx-text-fill: white;
+    -fx-cursor: hand;
+    -fx-padding: 8 16;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+}
+
+.button:hover {
+    -fx-background-color: #1aa7ff;
+}
+
+.button:pressed {
+    -fx-background-color: #0077cc;
+}
+
+.button:disabled {
+    -fx-background-color: #404040;
+    -fx-text-fill: #808080;
+}
+
+#errorLabel {
+    -fx-text-fill: #ff4444;
+    -fx-font-size: 12px;
+    -fx-padding: 5 0;
+    -fx-min-height: 30;
+}
+
+/* For a cleaner look on text selection */
+.text-field:focused .text, .password-field:focused .text {
+    -fx-highlight-fill: #0096ff;
+    -fx-highlight-text-fill: white;
+}

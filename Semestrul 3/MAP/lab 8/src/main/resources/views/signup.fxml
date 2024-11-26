@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ubb.scs.map.controller.SignUpController"
+      spacing="15"
+      alignment="CENTER"
+      style="-fx-padding: 20;"
+      stylesheets="@../css/signup.css">
+
+    <Label text="Create Account"
+           style="-fx-font-size: 24; -fx-font-weight: bold;"/>
+
+    <VBox spacing="5">
+        <Label text="Username"/>
+        <TextField fx:id="usernameField"
+                   promptText="Enter username"
+                   prefWidth="300"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="First Name"/>
+        <TextField fx:id="firstNameField"
+                   promptText="Enter first name"
+                   prefWidth="300"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="Last Name"/>
+        <TextField fx:id="lastNameField"
+                   promptText="Enter last name"
+                   prefWidth="300"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="Password"/>
+        <PasswordField fx:id="passwordField"
+                       promptText="Enter password"
+                       prefWidth="300"/>
+    </VBox>
+
+    <VBox spacing="5">
+        <Label text="Confirm Password"/>
+        <PasswordField fx:id="confirmPasswordField"
+                       promptText="Confirm password"
+                       prefWidth="300"/>
+    </VBox>
+
+    <Label fx:id="errorLabel"
+           wrapText="true"
+           style="-fx-text-fill: red;"
+           maxWidth="300"/>
+
+    <VBox spacing="10" alignment="CENTER">
+        <Button fx:id="signUpButton"
+                text="Sign Up"
+                prefWidth="200"
+                style="-fx-font-weight: bold;"/>
+
+        <Button fx:id="backToLoginButton"
+                text="Back to Login"
+                prefWidth="200"/>
+    </VBox>
+</VBox>
