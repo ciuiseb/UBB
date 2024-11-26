@@ -39,7 +39,9 @@
 ; c) Sa se inlocuiasca fiecare sublista a unei liste cu ultimul ei element. 
 ; Prin sublista se intelege element de pe primul nivel, care este lista. 
 ; Exemplu: (a (b c) (d (e (f)))) ==> (a c (e (f))) ==> (a c (f)) ==> (a c f) 
-(a (b c) (d ((e) f))) ==> (a c ((e) f)) ==> (a c f)
+;(a (b c) (d ((e) f))) ==> (a c ((e) f)) ==> (a c f)
+; + modificare pentru lab: inlocuieste lista doar daca este numar, altfel nu o inlocuieste
+; (a (b c 2) (d (e (f)))) -> (a 2)
 (defun replace_sublists (l)
     (cond 
         ((null l)
