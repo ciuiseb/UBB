@@ -1,0 +1,2 @@
+Sterge secventele de cel putin 2 numere negative, dupa care dubleaza fiecare aparitie a numerelor pare.
+  Ex: [1,2,-1,3,-12,-6,18] -> [1,2,-1,3,18] -> [1,2,2,-1,3,18,18]
