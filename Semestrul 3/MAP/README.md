@@ -23,3 +23,6 @@
 ## Lab 9
 
 [Implemented a notification functionality, and switched the friends view to a paginated one](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%209)
+
+# Lab 10
+[Back to square one. Now in C#](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%210)
