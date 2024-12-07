@@ -18,8 +18,8 @@
 [Switched the interface to a graphic one, made using Scene builder. Also added some more functionalities such as friend requests.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%206-7)
 
 ## Lab 8
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%208)
+[desc](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%208)
 
 ## Lab 9
 
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%209)
+[desc](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%209)
