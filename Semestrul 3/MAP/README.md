@@ -18,8 +18,8 @@
 [Switched the interface to a graphic one, made using Scene builder. Also added some more functionalities such as friend requests.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%206-7)
 
 ## Lab 8
-[desc](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%208)
+[Implemented a messaging functionality](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%208)
 
 ## Lab 9
 
-[desc](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%209)
+[Implemented a notification functionality, and switched the friends view to a paginated one](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%209)
