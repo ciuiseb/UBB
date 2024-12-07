@@ -1,0 +1,57 @@
+.root {
+    -fx-background-color: #1a1a1a;
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-field, .password-field {
+    -fx-background-color: #333333;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #808080;
+    -fx-background-radius: 4;
+    -fx-border-radius: 4;
+    -fx-border-color: #404040;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #0096ff;
+    -fx-background-color: #404040;
+}
+
+.button {
+    -fx-background-color: #0096ff;
+    -fx-text-fill: white;
+    -fx-background-radius: 4;
+    -fx-cursor: hand;
+    -fx-padding: 10;
+}
+
+.button:hover {
+    -fx-background-color: #1aa7ff;
+}
+
+.button:pressed {
+    -fx-background-color: #0077cc;
+}
+
+#backToLoginButton {
+    -fx-background-color: #404040;
+}
+
+#backToLoginButton:hover {
+    -fx-background-color: #4d4d4d;
+}
+
+#backToLoginButton:pressed {
+    -fx-background-color: #333333;
+}
+
+#errorLabel {
+    -fx-text-fill: #ff4444;
+    -fx-font-size: 12px;
+}
