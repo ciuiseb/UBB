@@ -1,0 +1,25 @@
+(inorder '(A (B) (C (D) (E)))) -> (B A D C E)
+     A
+   /   \
+  B     C
+       / \
+      D   E
+
+(inorder '(A (B (D) (E)) (C (F) (G)))) -> (D B E A F C G)
+      A
+    /   \
+   B     C
+  / \   / \
+ D   E F   G
+
+(inorder '(A (B (D (G) (H)) (E (I) (J))) (C (F (K) (L)) (M (N) (O))))) -> (G D H B I E J A K F L C N M O)
+         A
+       /   \
+      B     C
+     / \   / \
+    D   E F   M
+   / \ / \ \ / \
+  G  H I J K L N O
+
+ (inorder '(A (B (D (G))(E (H ( L (M) (N)))(I)))(C (F (J) (K (Q (P (R) (S)))))))) 
+    -> (G D B M L N H E I A J F R P S Q K C)
