@@ -1,0 +1,17 @@
+a)
+(is_linear '(1 2 3)) -> T
+(is_linear '((1) 2 3)) -> NIL
+
+b)
+(replace_c '(1 2 3 (4 5) 6 4) 4 0) ->(1 2 3 (0 5) 6 4)
+
+(find_c '(1 2 3) 1) ->T
+(find_c '(1 2 3) 0) ->NIL 
+(find_c '(1 2 ( 3 ( 4 ))) 4) ->T
+
+c)
+(replace_sublists '(a (b c) (d ((e) f)))) -> (a c f)
+(last_c '(a b (c (f)))) -> f
+
+d)
+(interclasare '(1 3 5) '(2 4)) -> (1 2 3 4 5)

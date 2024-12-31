@@ -1,0 +1,33 @@
+a)
+get_n(l, n, current) =
+                    {l1, current = n
+                    {nil, current > n 
+                    {get_n(l2..ln, n, current + 1)
+
+getn(l, n) = get_n(l, n, 1)
+
+b)
+flatten(l) = 
+            {m vide, n = 0
+            {l1 U flatten(l2..ln), l1 = atom and n > 0
+            {flatten(l1) U flatten(l2..ln), n > 0 l1 = lista (else)
+
+contains_aux(l, target) = 
+                        {false, n = 0
+                        {true, l1 = target and n > 0
+                        {contains_aux(l2..ln, target), else
+contains(l, target) = contains_aux (flatten(l), target)
+
+c)
+sl(l) = l U sublists(l)
+
+sublists(l) = 
+                {nil, n = 0
+                {l1 U sublists(l), n > 0 and l1 = list
+                {sublists(l), n > 0 and l1 != list (else)
+
+d)
+to_set(l) =
+            {nil, n = 0
+            {l1 U to_set(l2..ln), n > 0 and !contains(l2..ln, l1)
+            {to_set(l2..ln), n > 0 and contains(l2..ln, l1)

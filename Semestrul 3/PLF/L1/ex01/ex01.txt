@@ -1,0 +1,39 @@
+a)
+insert_aux(l, index, r) = 
+                        {m vida, index > n
+                        {l1 U insert(l2..ln, index + 1, r), index <= n && index %2 == 1
+                        {l1 U r U insert(l2..ln, index + 1, r), index <= n $$ index % 2 == 0
+            
+insert(l, r) = insert_aux(l, 1, r)
+                        
+b)
+flatten(l) = 
+            {nil, l = vid
+            {l1 U flatten(l2..ln), n > 0 and l1 = atom
+            {flatten(l1) U flatten(l2..ln), n > 0 and l1 = list (else)
+
+reverse_aux(l) = 
+                {nil, n = 0
+                {reverse_aux(l2..ln) U l1, n > 0
+reverse(l) = reverse_aux(fatten(l))
+
+c)
+cmmdc(a, b) = 
+                {a, b = 0
+                {cmmdc (b, a % b)
+cmmdc-list-aux(l, result) = 
+                { result, n = 0
+                { cmmdc_list(l2..ln, cmmdc(l1, result))
+cmmdc-list(l) = cmmdc-list-aux(l2..ln, l1)
+
+d)
+apparitions(l, target) = apparitions_aux(flatten(l), target)
+
+apparitions_aux(l, target) = 
+                            {0, n = 0
+                            {1 + apparitions_aux(l2..ln, target), n > 0 and l1 = target
+                            {apparitions_aux(l2..ln, target), n > 0 and l1 != target (else)
+
+
+
+
