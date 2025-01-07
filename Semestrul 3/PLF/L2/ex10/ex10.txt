@@ -1,0 +1,4 @@
+search(l, target, level) = 
+                            {-1, l = null
+                            {level, l1 = target 
+                            {max(search(l2), search(l3)), l1 != target

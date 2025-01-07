@@ -1,0 +1,5 @@
+subs(e, l1, l) =
+            {∅, if l = ∅
+            {l1, l = atom and l = e
+            {l,  l = atom and l != e
+            {subs(e, l1, x) for x in l,  l = list (else)

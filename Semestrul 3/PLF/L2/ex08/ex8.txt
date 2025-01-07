@@ -1,0 +1,3 @@
+inorder(l1..ln) =
+                 {m vida, n = 0
+                 { inorder(l2) U l1 U inorder(l3)

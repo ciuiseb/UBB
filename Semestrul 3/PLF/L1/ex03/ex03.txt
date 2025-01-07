@@ -1,0 +1,12 @@
+a)
+// presupunem ca au aceeasi lungime
+prod(i, j) = 
+            {0, n = m = 0
+            {i1 * j1 + prod(i2..in, j2..jm)
+
+b)
+
+depth(l) = 
+            {1, n = 0
+            {depth(l1) + depth(l2..ln), n > 0 and l1 lista
+            {depth(l2..ln), n > 0 and l1 atom (else)
