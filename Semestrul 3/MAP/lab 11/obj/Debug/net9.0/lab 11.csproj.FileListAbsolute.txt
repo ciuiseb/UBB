@@ -1,0 +1,19 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\lab 11.exe
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\lab 11.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\lab 11.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\lab 11.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\lab 11.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\bin\Debug\net9.0\Npgsql.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.csproj.Up2Date
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\refint\lab 11.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\lab 11.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM I\MAP\lab 11\lab 11\obj\Debug\net9.0\ref\lab 11.dll
