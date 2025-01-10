@@ -18,5 +18,5 @@
 [Binary tree inorder iteration](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L2)
 
 ## L3
-[]()
+[MAP exercise](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L3/ex09)
 
