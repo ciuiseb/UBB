@@ -26,3 +26,6 @@
 
 ## Lab 10
 [Back to square one. Now in C#](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%2010)
+
+## Lab 11
+[Rom NBA league console app with minimal functionalities](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%2011)
