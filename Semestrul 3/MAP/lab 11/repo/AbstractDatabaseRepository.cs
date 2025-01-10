@@ -60,11 +60,11 @@ public abstract class AbstractDatabaseRepository<TId, TEntity>(string connection
         {
             var id = (TId)cmd.ExecuteScalar()!;
             entity.Id = id;
-            return null; // Return null if save was successful
+            return null; 
         }
         catch (PostgresException)
         {
-            return entity; // Return entity if save failed (id already exists)
+            return entity; 
         }
     }
 
