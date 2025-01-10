@@ -15,7 +15,7 @@
 [Switched to data base persistance](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%2005)
 
 ## Lab 6-7
-[Switched the interface to a graphic one, made using Scene builder. Also added some more functionalities such as friend requests.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%206-7)
+[Switched the interface to a graphic one, made using Scene builder. Also added some more functionalities such as friend requests.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%2006-07)
 
 ## Lab 8
 [Implemented a messaging functionality](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/MAP/lab%2008)
