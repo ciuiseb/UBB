@@ -15,7 +15,7 @@
 [Some basic exercise. Now in lisp](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L1)
 
 ## L2
-[Binary tree inorder iteration](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L2)
+[Binary tree inorder iteration](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L2/ex08)
 
 ## L3
 [MAP exercise](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L3/ex09)
