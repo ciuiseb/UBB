@@ -1,0 +1,5 @@
+a)
+insert_at(l, e, pos, n) = 
+                        {m vida, m = 0
+                        {e + l, m > 0 and pos = n
+                        {l1 + insert_at(l2..ln, e, pos + 1, n), m > 0 and pos != n

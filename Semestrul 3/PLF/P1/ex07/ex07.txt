@@ -1,0 +1,21 @@
+a)
+contains(l, target) = 
+                {false, n = 0
+                {true, n > 0 and l1 = target
+                {contains(l2..ln), n > 0 and l1 != target
+remove(l, target) = 
+                {m vida, n = 0
+                {l1 + remove(l2..ln, target), n > 0 and l1 != target 
+                {l2..ln, n > 0 and l1 = target
+reunion(l, k) = 
+                    {k, n = 0
+                    {l, m = 0
+                    {l1 + reunion(l2..ln, k), n > 0 and m > 0 and not contains(k, l1)              
+                    {l1 + reunion(l2..ln, remove(k, l1)), n > 0 and m > 0 and contains(k, l1)
+b)
+pair_with_all(e, l) = 
+                        {m vida, n = 0
+                        {(e, l1) + pair_with_all(e, l2..ln), n > 0
+pair(l) =
+                {m vida, n = 1
+                {pair_with_all(l1, l2..ln) + pair(l2..ln), n > 0

@@ -1,0 +1,11 @@
+a)
+replace(l, target, new) = 
+                {m vida, n = 0
+                {new + replace(l2..ln), n > 0 and l1 = target
+                {l1 + replace(l2..ln), n> 0 and l1 != target
+
+b)
+remove_nth(l, n) = 
+                        {m vida, len(l) = 0
+                        {l2..ln, len(l) > 0 and n > 1 
+                        {l1 + remove_nth(l2..ln, n - 1), len(l) > 0 and n = 1 

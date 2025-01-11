@@ -1,0 +1,17 @@
+a)
+contains(l, target) = 
+                {false, n = 0
+                {true, n > 0 and l1 = target
+                {contains(l2..ln), n > 0 and l1 != target
+isset(l) = 
+            {true, n = 0
+            {false, n > 0 and contains(l2..ln, l1)
+            {isset(l2..ln), n > 0 and not contains(l2..ln, l1)
+
+b)
+remove_3(l, e) = remove_aux(l, e, 0)
+remove_aux(l, e, count) = 
+                        {m vida, n = 0
+                        {l1 + remove_aux(l2..ln, e, count), n > 0 and l1 != e
+                        {remove_aux(l2..ln, e, count + 1), n > 0 and and l1 = e and count < 2
+                        {l2..ln, n > 0 and l1 = e and count >= 2

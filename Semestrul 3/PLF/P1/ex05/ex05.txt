@@ -1,0 +1,16 @@
+a)
+remove(l, target) = 
+                    {m vida, n = 0
+                    {l1 + remove(l2..ln, target), n > 0 and l1 != target 
+                    {remove(l2..ln, target), n > 0 and l1 == target
+
+b)
+count(l, target) = 
+                    {m vida, n = 0
+                    {count(l2..ln, target), n > 0 and l1 != target 
+                    {1 + count(l2..ln, target), n > 0 and l1 == target
+frecv(l) = 
+            {m vida, n = 0
+            {[l1, count(l1, l)] + frecv(remove(l2..ln, l1)), n > 0
+
+

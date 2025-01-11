@@ -1,0 +1,11 @@
+a)
+delete(l, target) = 
+                    {m vida, n = 0
+                    {l1 + delete(l2..ln, target), n > 0 and  l1 != target
+                    {delete(l2..ln, target), n > 0 and  l1 == target
+
+toset(l) = 
+            {m vida, n = 0
+            {l1 + toset(delete(l2..ln), l1), n > 0
+
+b)

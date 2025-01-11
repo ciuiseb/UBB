@@ -1,0 +1,18 @@
+a)
+contains(l, target) = 
+                    {false, n = 0
+                    {true, n > 0 and l1 = target
+                    {contains(l2..ln, target), n > 0 and l1 != target
+
+diff(l, k, rez) = 
+                    {rez, n = 0
+                    {l1 + diff(l2..ln, k, rez), n > 0 and !contains(l1, k)
+                    {diff(l2..ln, k, rez), n > 0 and contains(l1, k)
+
+diffmultimi(l, k) = diff(l, k) + diff(k, l)
+
+b)
+addone(l) = 
+            {m vida, n = 0
+            {l1 + addone(l2..ln), n > 0 and l1 % 2 != 0
+            {l1 + 1 + addone(l2..ln), n > 0 and l1 % 2 == 0
