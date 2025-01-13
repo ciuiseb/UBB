@@ -1,0 +1,16 @@
+liniar(l1..ln) = 
+            {true, n = 0
+            {false, n > 0 and list(l1)
+            {liniar(l2..ln), n > 0 and not listp(l1) (else)
+
+count_numbers(l1..ln) = 
+            {0, n = 0
+            {1 + count_numbers(l2..ln), n > 0 and numberp(l1)
+            {count_numbers(l2..ln), n > 0 and not numberp(l1) (else)
+
+sterge(l1..ln) =
+            {m vida, n = 0
+            {sterge(l1) U sterge(l2..ln), n > 0 and list(l1) and not liniar(l1)
+            {sterge(l2..ln), n > 0 and list(l1) and liniar(l1) and count_numbers(l1) % 2 = 0
+            {l1 U sterge(l2..ln), (else)
+

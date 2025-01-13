@@ -1,9 +1,9 @@
-(defun subs (e l1 l)
+(defun subs (e new l)
     (cond
         ((null l) nil)
         ((atom l) 
-            (if (equal l e) l1 l))
+            (if (equal l e) new (list l)))
         (t 
-            (mapcar #'(lambda (x) (subs e l1 x)) l))
+            (list (apply #'append (mapcar #'(lambda (x) (subs e new x)) l))))
     )
 )

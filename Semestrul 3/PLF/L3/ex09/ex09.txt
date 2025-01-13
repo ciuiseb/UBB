@@ -1,5 +1,5 @@
-subs(e, l1, l) =
-            {∅, if l = ∅
-            {l1, l = atom and l = e
-            {l,  l = atom and l != e
-            {subs(e, l1, x) for x in l,  l = list (else)
+subs(e, new, l1..ln) =
+            {m vida, n = 0
+            {new, l = atom and l = e
+            {list(l) ,l = atom and l != e
+            {{subs(e, new, x) | X apartine l}, else 
