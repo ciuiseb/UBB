@@ -1,0 +1,40 @@
+[2025-01-13 17:02:49] Application started
+[2025-01-13 17:02:51] Viewing team players
+[2025-01-13 17:02:51] Retrieved 0 players for team namespace lab_11.app;
+[2025-01-13 17:02:51] Invalid choice entered: sing System.Text.Json;
+[2025-01-13 17:02:51] Invalid choice entered: ublic delegate void LogEventHandler(string message);
+[2025-01-13 17:02:51] Invalid choice entered: public class Logger
+[2025-01-13 17:02:51] Invalid choice entered: 
+[2025-01-13 17:02:51] Invalid choice entered:    private readonly string file;
+[2025-01-13 17:02:51] Invalid choice entered:    public event LogEventHandler OnLog;
+[2025-01-13 17:02:51] Invalid choice entered:     public Logger()
+[2025-01-13 17:02:51] Invalid choice entered:    {
+[2025-01-13 17:02:51] Invalid choice entered:        file = LoadLogPathFromSettings();
+[2025-01-13 17:02:51] Invalid choice entered:        OnLog += WriteToLog;
+[2025-01-13 17:02:51] Invalid choice entered:    }
+[2025-01-13 17:02:51] Invalid choice entered:    private string LoadLogPathFromSettings()
+[2025-01-13 17:02:51] Invalid choice entered:    {
+[2025-01-13 17:02:51] Invalid choice entered:        try
+[2025-01-13 17:02:51] Invalid choice entered:        {
+[2025-01-13 17:02:51] Invalid choice entered:            string jsonString = File.ReadAllText("appsettings.json");
+[2025-01-13 17:02:51] Invalid choice entered:            using JsonDocument document = JsonDocument.Parse(jsonString);
+[2025-01-13 17:02:51] Invalid choice entered:            return document.RootElement.GetProperty("LogSettings").GetProperty("LogFilePath").GetString();
+[2025-01-13 17:02:51] Invalid choice entered:        }
+[2025-01-13 17:02:51] Invalid choice entered:        catch (Exception ex)
+[2025-01-13 17:02:51] Invalid choice entered:        {
+[2025-01-13 17:02:51] Invalid choice entered:            Console.WriteLine($"Error loading settings: {ex.Message}");
+[2025-01-13 17:02:51] Invalid choice entered:            return "events.log"; // fallback to default
+[2025-01-13 17:02:51] Invalid choice entered:        }
+[2025-01-13 17:02:51] Invalid choice entered:    }
+[2025-01-13 17:02:51] Invalid choice entered:    private void WriteToLog(string message)
+[2025-01-13 17:02:51] Invalid choice entered:    {
+[2025-01-13 17:02:51] Invalid choice entered:        string logMessage = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {message}";
+[2025-01-13 17:02:51] Invalid choice entered:        File.AppendAllText(file, logMessage + Environment.NewLine);
+[2025-01-13 17:02:51] Invalid choice entered:    }
+[2025-01-13 17:02:51] Invalid choice entered:     public void Log(string message)
+[2025-01-13 17:02:51] Invalid choice entered:    {
+[2025-01-13 17:02:51] Invalid choice entered:        OnLog?.Invoke(message);
+[2025-01-13 17:02:51] Invalid choice entered:    }
+[2025-01-13 17:02:53] Viewing team players
+[2025-01-13 17:02:56] Retrieved 15 players for team LA Clippers
+[2025-01-13 17:02:58] Application shutting down
