@@ -20,3 +20,5 @@
 ## L3
 [MAP exercise](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/L3/ex09)
 
+## Lisp practical exam
+[Solution](https://github.com/ciuiseb/UBB/tree/main/Semestrul%203/PLF/Lisp%20practic)
