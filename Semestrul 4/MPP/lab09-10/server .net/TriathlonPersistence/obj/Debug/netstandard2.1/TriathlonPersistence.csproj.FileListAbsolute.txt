@@ -1,0 +1,5 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Debug\netstandard2.1\TriathlonPersistence.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Debug\netstandard2.1\TriathlonPersistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Debug\netstandard2.1\TriathlonPersistence.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Debug\netstandard2.1\TriathlonPersistence.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Debug\netstandard2.1\TriathlonPersistence.csproj.CoreCompileInputs.cache

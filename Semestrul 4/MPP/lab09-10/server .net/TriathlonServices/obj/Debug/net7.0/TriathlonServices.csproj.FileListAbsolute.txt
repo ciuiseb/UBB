@@ -1,0 +1,45 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\refint\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonServices\obj\Debug\net7.0\ref\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\refint\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonServices\obj\Debug\net7.0\ref\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\bin\Debug\net7.0\TriathlonServices.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\refint\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonServices\obj\Debug\net7.0\ref\TriathlonServices.dll

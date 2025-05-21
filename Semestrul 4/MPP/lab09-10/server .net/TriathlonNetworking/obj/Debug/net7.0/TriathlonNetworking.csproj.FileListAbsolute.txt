@@ -1,0 +1,63 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\refint\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\obj\Debug\net7.0\ref\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\refint\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\lab08\TriathlonNetworking\obj\Debug\net7.0\ref\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonPersistence.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\bin\Debug\net7.0\TriathlonServices.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\refint\TriathlonNetworking.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\TriathlonNetworking.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab09-10\server .net\TriathlonNetworking\obj\Debug\net7.0\ref\TriathlonNetworking.dll

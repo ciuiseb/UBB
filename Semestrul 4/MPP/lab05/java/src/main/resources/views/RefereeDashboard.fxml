@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="mpp.controller.RefereeDashboardController">
+
+    <top>
+        <HBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <Label text="Assigned Discipline:" style="-fx-font-size: 16px;"/>
+            <Label fx:id="disciplineLabel" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            <Region HBox.hgrow="ALWAYS" />
+            <Button fx:id="raportButton" text="View Event Raport"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Update Scores" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <RadioButton fx:id="allParticipantsRadio" text="All Participants" selected="true">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="participantFilterGroup"/>
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="ungradedParticipantsRadio" text="Ungraded Participants" toggleGroup="$participantFilterGroup"/>
+            </HBox>
+            <TableView fx:id="resultsTable" prefHeight="400" VBox.vgrow="ALWAYS">
+                <columns>
+                    <TableColumn fx:id="participantColumn" text="Participant Name" prefWidth="200"/>
+                    <TableColumn fx:id="scoreColumn" text="Score" prefWidth="100"/>
+                </columns>
+            </TableView>
+            <!--            <Button fx:id="saveScoresButton" text="Save Scores" maxWidth="150"/>-->
+        </VBox>
+    </center>
+
+</BorderPane>

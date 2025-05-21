@@ -1,0 +1,157 @@
+2025-05-14 14:20:33,198 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 14:20:33,205 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 14:20:33,209 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 14:20:41,889 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:20:41,902 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58114
+2025-05-14 14:20:42,108 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 14:20:42,126 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 14:20:42,249 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:20:46,719 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:20:46,721 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58117
+2025-05-14 14:20:46,857 [4] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: andrei
+2025-05-14 14:20:46,857 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: andrei
+2025-05-14 14:20:46,971 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:20:52,089 [4] INFO  Triathlon.Server.ServiceImplementation - Updating result ID: 27 for participant: 4
+2025-05-14 14:20:52,109 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying result update for result ID: 27
+2025-05-14 14:20:52,112 [4] INFO  Triathlon.Server.ServiceImplementation - There are 2 clients connected
+2025-05-14 14:20:52,113 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 1
+2025-05-14 14:20:52,115 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 2
+2025-05-14 14:20:52,217 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:20:54,467 [4] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: andrei
+2025-05-14 14:20:54,468 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: andrei
+2025-05-14 14:20:54,578 [4] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58117
+2025-05-14 14:20:55,093 [6] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: luk
+2025-05-14 14:20:55,093 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: luk
+2025-05-14 14:20:55,207 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58114
+2025-05-14 14:24:38,534 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 14:24:38,542 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 14:24:38,546 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 14:24:48,055 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:24:48,083 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58249
+2025-05-14 14:24:48,315 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 14:24:48,332 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 14:24:48,464 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:24:55,023 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:24:55,025 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58254
+2025-05-14 14:24:55,212 [7] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: andrei
+2025-05-14 14:24:55,213 [7] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: andrei
+2025-05-14 14:24:55,324 [7] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:00,267 [6] INFO  Triathlon.Server.ServiceImplementation - Updating result ID: 7 for participant: 4
+2025-05-14 14:25:00,286 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying result update for result ID: 7
+2025-05-14 14:25:00,289 [6] INFO  Triathlon.Server.ServiceImplementation - There are 2 clients connected
+2025-05-14 14:25:00,291 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 1
+2025-05-14 14:25:00,292 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 2
+2025-05-14 14:25:00,303 [7] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:00,408 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:12,080 [7] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: andrei
+2025-05-14 14:25:12,080 [7] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: andrei
+2025-05-14 14:25:12,198 [7] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58254
+2025-05-14 14:25:12,768 [6] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: luk
+2025-05-14 14:25:12,768 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: luk
+2025-05-14 14:25:12,886 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58249
+2025-05-14 14:25:32,988 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 14:25:32,996 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 14:25:33,000 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 14:25:43,107 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:25:43,156 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58300
+2025-05-14 14:25:43,413 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: andrei
+2025-05-14 14:25:43,432 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: andrei
+2025-05-14 14:25:43,561 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:47,984 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 14:25:47,985 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58304
+2025-05-14 14:25:48,081 [4] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 14:25:48,082 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 14:25:48,187 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:54,683 [4] INFO  Triathlon.Server.ServiceImplementation - Updating result ID: 7 for participant: 4
+2025-05-14 14:25:54,703 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying result update for result ID: 7
+2025-05-14 14:25:54,706 [4] INFO  Triathlon.Server.ServiceImplementation - There are 2 clients connected
+2025-05-14 14:25:54,708 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 1
+2025-05-14 14:25:54,709 [4] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 2
+2025-05-14 14:25:54,733 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:25:54,818 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-14 14:26:00,957 [6] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: andrei
+2025-05-14 14:26:00,957 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: andrei
+2025-05-14 14:26:01,069 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58300
+2025-05-14 14:26:02,282 [4] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: luk
+2025-05-14 14:26:02,284 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: luk
+2025-05-14 14:26:02,391 [4] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58304
+2025-05-14 17:21:28,941 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 17:21:28,949 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 17:21:28,956 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 17:22:41,719 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 17:22:41,759 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58671
+2025-05-14 17:22:42,005 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 17:22:42,046 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 17:23:02,881 [6] ERROR Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - IO error during request processing
+System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker.Run() in C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\jsonprotocol\TriathlonClientJsonWorker.cs:line 74
+2025-05-14 17:23:02,986 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58671
+2025-05-14 17:24:17,585 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 17:24:17,593 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 17:24:17,598 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 17:25:08,219 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 17:25:08,242 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:58964
+2025-05-14 17:25:08,411 [11] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 17:25:08,445 [11] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 17:25:59,235 [11] ERROR Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - IO error during request processing
+System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker.Run() in C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\jsonprotocol\TriathlonClientJsonWorker.cs:line 74
+2025-05-14 17:25:59,295 [11] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:58964
+2025-05-14 17:36:09,212 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-14 17:36:09,221 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 17:36:09,225 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 17:36:20,567 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-14 17:36:20,576 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:59532
+2025-05-14 17:36:20,711 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-14 17:36:20,729 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-14 17:37:57,749 [6] ERROR Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - IO error during request processing
+System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host..
+ ---> System.Net.Sockets.SocketException (10054): An existing connection was forcibly closed by the remote host.
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)
+   at System.IO.StreamReader.ReadBuffer()
+   at System.IO.StreamReader.ReadLine()
+   at Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker.Run() in C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonNetworking\jsonprotocol\TriathlonClientJsonWorker.cs:line 74
+2025-05-14 17:37:57,819 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:59532
+2025-05-15 15:55:54,109 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-15 15:55:54,124 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-15 15:55:54,136 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-16 12:47:43,847 [1] INFO  Triathlon.Server.StartJsonServer - Using port from configuration: 55559
+2025-05-16 12:47:43,857 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-16 12:47:43,869 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-16 12:48:01,129 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-16 12:48:01,150 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:60832
+2025-05-16 12:48:01,406 [6] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: luk
+2025-05-16 12:48:01,438 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: luk
+2025-05-16 12:48:01,575 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-16 12:48:07,103 [1] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1
+2025-05-16 12:48:07,103 [1] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:60835
+2025-05-16 12:48:07,209 [4] INFO  Triathlon.Server.ServiceImplementation - Login attempt from referee: andrei
+2025-05-16 12:48:07,210 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged in successfully: andrei
+2025-05-16 12:48:07,324 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-16 12:48:14,401 [6] INFO  Triathlon.Server.ServiceImplementation - Updating result ID: 7 for participant: 4
+2025-05-16 12:48:14,410 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying result update for result ID: 7
+2025-05-16 12:48:14,411 [6] INFO  Triathlon.Server.ServiceImplementation - There are 2 clients connected
+2025-05-16 12:48:14,412 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 1
+2025-05-16 12:48:14,412 [6] INFO  Triathlon.Server.ServiceImplementation - Notifying observer with ID: 2
+2025-05-16 12:48:14,425 [4] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-16 12:48:14,517 [6] INFO  Triathlon.Server.ServiceImplementation - Getting results for event ID: 1
+2025-05-16 12:49:10,016 [6] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: luk
+2025-05-16 12:49:10,016 [6] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: luk
+2025-05-16 12:49:10,132 [6] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:60832
+2025-05-16 12:49:10,705 [4] INFO  Triathlon.Server.ServiceImplementation - Logout attempt from referee: andrei
+2025-05-16 12:49:10,706 [4] INFO  Triathlon.Server.ServiceImplementation - Referee logged out successfully: andrei
+2025-05-16 12:49:10,809 [4] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Closing connection to client: 127.0.0.1:60835

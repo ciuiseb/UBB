@@ -1,0 +1,10 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\bin\Debug\netstandard2.1\TriathlonModel.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\bin\Debug\netstandard2.1\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\bin\Debug\netstandard2.1\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonModel\obj\Debug\netstandard2.1\TriathlonModel.pdb

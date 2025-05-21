@@ -1,0 +1,17 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\bin\Debug\net7.0-windows\cs.exe
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\bin\Debug\net7.0-windows\cs.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\bin\Debug\net7.0-windows\cs.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\bin\Debug\net7.0-windows\cs.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\bin\Debug\net7.0-windows\cs.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.Form1.resources
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.csproj.GenerateResource.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\refint\cs.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\cs.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab02\cs\obj\Debug\net7.0-windows\ref\cs.dll

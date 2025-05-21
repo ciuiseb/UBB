@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\TriathlonModel\TriathlonModel.csproj" />
+		<ProjectReference Include="..\TriathlonPersistence\TriathlonPersistence.csproj" />
+		<ProjectReference Include="..\TriathlonServices\TriathlonServices.csproj" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+      alignment="CENTER" fx:controller="mpp.controller.LoginController">
+
+    <Label text="Referee Login" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+    <GridPane >
+        <columnConstraints>
+            <ColumnConstraints halignment="RIGHT" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints valignment="CENTER" />
+        </rowConstraints>
+
+        <Label text="Username:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="usernameField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Password:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <PasswordField fx:id="passwordField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <Button text="Login" fx:id="loginButton" maxWidth="150"/>
+
+</VBox>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="log4net" Version="3.0.4" />
+	</ItemGroup>
+	<ItemGroup>
+	  <ProjectReference Include="..\TriathlonModel\TriathlonModel.csproj" />
+	  <ProjectReference Include="..\TriathlonNetworking\TriathlonNetworking.csproj" />
+	  <ProjectReference Include="..\TriathlonServices\TriathlonServices.csproj" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Update="log4net.config">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+</Project>

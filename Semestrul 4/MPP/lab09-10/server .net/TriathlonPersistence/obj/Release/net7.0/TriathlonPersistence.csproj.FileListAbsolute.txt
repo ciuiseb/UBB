@@ -1,0 +1,17 @@
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonPersistence.deps.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonPersistence.runtimeconfig.json
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonPersistence.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonModel.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\bin\Release\net7.0\TriathlonModel.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.csproj.AssemblyReference.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.AssemblyInfoInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.AssemblyInfo.cs
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.csproj.CoreCompileInputs.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.csproj.CopyComplete
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\refint\TriathlonPersistence.dll
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.pdb
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\TriathlonPersistence.genruntimeconfig.cache
+C:\Users\ciuis\Desktop\FACULTATE\ANUL II\SEM II\MPP\lab08\TriathlonPersistence\obj\Release\net7.0\ref\TriathlonPersistence.dll

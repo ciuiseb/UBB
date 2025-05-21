@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="triathlon.client.fx.gui.RefereeDashboardController">
+
+    <top>
+        <VBox spacing="10">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <HBox spacing="10">
+                <Label text="Referee:" style="-fx-font-size: 14px;"/>
+                <Label fx:id="refereeNameLabel" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Label text="Assigned Discipline:" style="-fx-font-size: 14px;"/>
+                <Label fx:id="disciplineLabel" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <Button fx:id="logoutButton" text="Logout"/>
+            </HBox>
+
+            <Separator />
+
+            <HBox spacing="10">
+                <Label text="Event:" style="-fx-font-size: 16px;"/>
+                <Label fx:id="eventLabel" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <VBox spacing="20">
+            <padding>
+                <Insets top="10" right="10" bottom="10" left="10"/>
+            </padding>
+
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Participants and Scores" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+                <Region HBox.hgrow="ALWAYS" />
+                <RadioButton fx:id="allParticipantsRadio" text="All Participants" selected="true">
+                    <toggleGroup>
+                        <ToggleGroup fx:id="participantFilterGroup"/>
+                    </toggleGroup>
+                </RadioButton>
+                <RadioButton fx:id="ungradedParticipantsRadio" text="Ungraded Participants" toggleGroup="$participantFilterGroup"/>
+            </HBox>
+
+            <!-- First Table: Discipline Scores Table -->
+            <VBox spacing="5">
+                <Label text="Discipline Scores" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <TableView fx:id="disciplineScoresTable" prefHeight="200" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="disciplineParticipantColumn" text="Participant Name" prefWidth="200"/>
+                        <TableColumn fx:id="disciplineScoreColumn" text="Discipline Score" prefWidth="200"/>
+                    </columns>
+                </TableView>
+            </VBox>
+
+            <VBox spacing="5">
+                <Label text="Total Points" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+                <TableView fx:id="totalPointsTable">
+                    <columns>
+                        <TableColumn fx:id="totalPointsParticipantColumn" text="Participant"/>
+                        <TableColumn fx:id="totalPointsColumn" text="Total Points"/>
+                    </columns>
+                </TableView>
+            </VBox>
+        </VBox>
+    </center>
+
+    <bottom>
+        <HBox spacing="10" alignment="CENTER_LEFT">
+            <padding>
+                <Insets top="10" right="10" bottom="20" left="10"/>
+            </padding>
+
+            <Label text="Update Score:" />
+            <TextField fx:id="scoreField" prefWidth="100" promptText="Enter score"/>
+            <Button fx:id="updateScoreButton" text="Update Score"/>
+            <Region HBox.hgrow="ALWAYS" />
+        </HBox>
+    </bottom>
+
+</BorderPane>

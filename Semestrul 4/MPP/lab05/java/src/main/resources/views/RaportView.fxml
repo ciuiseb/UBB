@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="mpp.controller.RaportViewController"
+      spacing="10">
+
+    <padding>
+        <Insets top="10" right="10" bottom="10" left="10"/>
+    </padding>
+
+    <HBox alignment="CENTER_LEFT" spacing="15">
+        <Button fx:id="backButton" text="Go Back" />
+        <Label fx:id="eventLabel" text="Event: " style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+    </HBox>
+
+    <Label text="Total Points" style="-fx-font-size: 14px; -fx-font-weight: bold;"/>
+    <TableView fx:id="resultsTable" VBox.vgrow="ALWAYS" />
+
+</VBox>

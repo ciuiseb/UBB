@@ -1,0 +1,72 @@
+2025-05-13 17:08:11,167 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-13 17:08:11,179 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-13 17:08:26,493 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:60518
+2025-05-13 17:08:26,522 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:60518
+2025-05-13 17:08:59,419 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-13 17:08:59,434 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-13 17:09:09,170 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:60568
+2025-05-13 17:09:09,199 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:60568
+2025-05-13 17:09:24,927 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:60581
+2025-05-13 17:09:24,929 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:60581
+2025-05-13 17:09:25,122 [7] INFO  Triathlon.Server.ServiceImpl - Login attempt from referee: luk
+2025-05-13 17:09:25,140 [7] INFO  Triathlon.Server.ServiceImpl - Referee logged in successfully: luk
+2025-05-13 17:09:25,200 [7] INFO  Triathlon.Server.ServiceImpl - Getting results for event ID: 1
+2025-05-13 18:10:15,668 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-13 18:10:15,688 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-13 18:10:23,707 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:61680
+2025-05-13 18:10:23,747 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:61680
+2025-05-13 18:10:37,531 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:61689
+2025-05-13 18:10:37,533 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:61689
+2025-05-13 18:10:37,736 [8] INFO  Triathlon.Server.ServiceImpl - Login attempt from referee: luk
+2025-05-13 18:10:37,754 [8] INFO  Triathlon.Server.ServiceImpl - Referee logged in successfully: luk
+2025-05-13 18:10:37,815 [8] INFO  Triathlon.Server.ServiceImpl - Getting results for event ID: 1
+2025-05-14 09:52:50,092 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-14 09:52:50,109 [1] INFO  Triathlon.Server.StartJsonServer - Server stopped
+2025-05-14 09:53:01,722 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-14 09:53:01,736 [1] INFO  Triathlon.Server.StartJsonServer - Server stopped
+2025-05-14 09:53:34,293 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55555
+2025-05-14 09:53:34,313 [1] INFO  Triathlon.Server.StartJsonServer - Server stopped
+2025-05-14 09:54:39,265 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55557
+2025-05-14 09:54:39,281 [1] INFO  Triathlon.Server.StartJsonServer - Server stopped
+2025-05-14 09:55:05,301 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 09:55:05,316 [1] INFO  Triathlon.Server.StartJsonServer - Server stopped
+2025-05-14 09:58:25,870 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 09:58:25,962 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 09:58:49,341 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:61367
+2025-05-14 09:58:49,368 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:61367
+2025-05-14 10:01:31,137 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 10:01:31,153 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 10:01:43,615 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:62203
+2025-05-14 10:01:43,649 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:62203
+2025-05-14 10:03:07,429 [3] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:62331
+2025-05-14 10:03:07,429 [3] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:62331
+2025-05-14 10:03:37,198 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 10:03:37,210 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 10:03:46,307 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:62420
+2025-05-14 10:03:46,336 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:62420
+2025-05-14 10:05:11,014 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 10:05:11,027 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 10:05:20,404 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:62725
+2025-05-14 10:05:20,434 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:62725
+2025-05-14 10:57:27,100 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 10:57:27,116 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 10:57:35,580 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:65263
+2025-05-14 10:57:35,589 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:65263
+2025-05-14 10:57:35,848 [8] INFO  Triathlon.Server.ServiceImpl - Login attempt from referee: luk
+2025-05-14 10:57:35,881 [8] INFO  Triathlon.Server.ServiceImpl - Referee logged in successfully: luk
+2025-05-14 10:57:35,950 [5] INFO  Triathlon.Server.ServiceImpl - Getting results for event ID: 1
+2025-05-14 11:01:17,476 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 11:01:17,488 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 11:01:23,427 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:49286
+2025-05-14 11:01:23,458 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:49286
+2025-05-14 11:01:32,385 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 11:01:32,399 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 11:02:00,929 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 11:02:00,940 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...
+2025-05-14 11:02:11,890 [5] INFO  Triathlon.Server.StartJsonServer - Client connected from: 127.0.0.1:49347
+2025-05-14 11:02:11,900 [5] INFO  Triathlon.Network.JsonProtocol.TriathlonClientJsonWorker - Worker initialized for client: 127.0.0.1:49347
+2025-05-14 11:02:12,164 [7] INFO  Triathlon.Server.ServiceImpl - Login attempt from referee: luk
+2025-05-14 11:02:12,183 [7] INFO  Triathlon.Server.ServiceImpl - Referee logged in successfully: luk
+2025-05-14 11:02:12,253 [8] INFO  Triathlon.Server.ServiceImpl - Getting results for event ID: 1
+2025-05-14 11:33:28,019 [1] INFO  Triathlon.Server.StartJsonServer - Starting server on port: 55559
+2025-05-14 11:33:28,042 [1] INFO  Triathlon.Server.StartJsonServer - Server started. Waiting for clients...

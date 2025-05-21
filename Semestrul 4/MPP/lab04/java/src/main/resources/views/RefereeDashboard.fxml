@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="mpp.controller.RefereeDashboardController">
+
+    <top>
+        <HBox>
+            <Label text="Assigned Discipline:" style="-fx-font-size: 16px;"/>
+            <Label fx:id="disciplineLabel" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+            <Button fx:id="allEventsButton" text="View All Events"/>
+        </HBox>
+    </top>
+
+    <center>
+        <VBox >
+            <Label text="Update Scores" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+            <TableView fx:id="resultsTable" prefHeight="400">
+                <columns>
+                    <TableColumn fx:id="participantColumn" text="Participant Name" prefWidth="200"/>
+                    <TableColumn fx:id="scoreColumn" text="Score" prefWidth="100"/>
+                </columns>
+            </TableView>
+            <Button fx:id="saveScoresButton" text="Save Scores" maxWidth="150"/>
+        </VBox>
+    </center>
+
+</BorderPane>

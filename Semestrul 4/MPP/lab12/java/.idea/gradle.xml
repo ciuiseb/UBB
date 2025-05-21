@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/RestServices" />
+            <option value="$PROJECT_DIR$/Services" />
+            <option value="$PROJECT_DIR$/TriathlonClientFx" />
+            <option value="$PROJECT_DIR$/TriathlonModel" />
+            <option value="$PROJECT_DIR$/TriathlonNetworking" />
+            <option value="$PROJECT_DIR$/TriathlonPersistence" />
+            <option value="$PROJECT_DIR$/TriathlonServer" />
+            <option value="$PROJECT_DIR$/TriathlonServices" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
