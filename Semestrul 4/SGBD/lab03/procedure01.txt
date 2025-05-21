@@ -1,0 +1,74 @@
+CREATE OR REPLACE PROCEDURE InsertProductWithMaterials(
+    p_product_name VARCHAR(255),
+    p_factory_id INTEGER,
+    p_stock INTEGER,
+    p_material_names TEXT
+)
+AS $$
+DECLARE
+    new_product_id INTEGER;
+    material_name VARCHAR(255);
+    material_id INTEGER;
+    material_names_array TEXT[];
+    i INTEGER;
+BEGIN
+    BEGIN
+        -- Log start
+        INSERT INTO logs (action, status, message, created_at)
+        VALUES ('InsertProductWithMaterials', 'INFO', 'Starting procedure', NOW());
+        
+        -- Validate inputs
+        IF NOT uf_ValidateProductName(p_product_name) THEN
+            RAISE EXCEPTION 'Invalid product name';
+        END IF;
+        
+        IF NOT uf_ValidateFactoryId(p_factory_id) THEN
+            RAISE EXCEPTION 'Invalid factory ID';
+        END IF;
+        
+        IF NOT uf_ValidateStock(p_stock) THEN
+            RAISE EXCEPTION 'Invalid stock value';
+        END IF;
+        
+        -- Insert product
+        INSERT INTO products (name, factory_id, stock, last_updated)
+        VALUES (p_product_name, p_factory_id, p_stock, NOW())
+        RETURNING id INTO new_product_id;
+        
+        -- Split materials and process each one
+        material_names_array := string_to_array(p_material_names, ',');
+        
+        FOR i IN 1..array_length(material_names_array, 1) LOOP
+            material_name := TRIM(material_names_array[i]);
+            
+            -- Check if material exists
+            SELECT id INTO material_id FROM materials WHERE name = material_name;
+            
+            -- If not, create it
+            IF material_id IS NULL THEN
+                INSERT INTO materials (name)
+                VALUES (material_name)
+                RETURNING id INTO material_id;
+            END IF;
+            
+            -- Create relationship
+            INSERT INTO productscomposition (product_id, material_id)
+            VALUES (new_product_id, material_id);
+        END LOOP;
+        
+        -- Log success
+        INSERT INTO logs (action, status, message, created_at)
+        VALUES ('InsertProductWithMaterials', 'SUCCESS', 'Completed successfully', NOW());
+        
+        COMMIT;
+    EXCEPTION
+        WHEN OTHERS THEN
+            -- Log error
+            INSERT INTO logs (action, status, message, created_at)
+            VALUES ('InsertProductWithMaterials', 'ERROR', 'Error: ' || SQLERRM, NOW());
+            
+            ROLLBACK;
+            RAISE;
+    END;
+END;
+$$ LANGUAGE plpgsql;

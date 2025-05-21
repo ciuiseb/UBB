@@ -1,0 +1,41 @@
+BEGIN TRANSACTION;
+
+UPDATE Products SET stock = stock - 100 WHERE id = 1;
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX1_STEP1', 'Transaction 1 updated product stock', GETDATE());
+
+WAITFOR DELAY '00:00:05';
+
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX1_ATTEMPT', 'Transaction 1 attempting to update factory', GETDATE());
+
+UPDATE Factories SET number_of_employees = number_of_employees + 10 WHERE id = 1;
+
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX1_STEP2', 'Transaction 1 updated factory employee count', GETDATE());
+
+COMMIT TRANSACTION;
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX1_COMMIT', 'Transaction 1 committed successfully', GETDATE());
+------------------------------------------------------------------
+BEGIN TRANSACTION;
+
+UPDATE Factories SET number_of_employees = number_of_employees - 5 WHERE id = 1;
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX2_STEP1', 'Transaction 2 updated factory employee count', GETDATE());
+
+WAITFOR DELAY '00:00:05';
+
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX2_ATTEMPT', 'Transaction 2 attempting to update product', GETDATE());
+
+UPDATE Products SET last_updated = GETDATE() WHERE factory_id = 1;
+
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX2_STEP2', 'Transaction 2 updated product timestamp', GETDATE());
+
+COMMIT TRANSACTION;
+INSERT INTO logs (action, status, message, created_at)
+VALUES ('DEADLOCK', 'TX2_COMMIT', 'Transaction 2 committed successfully', GETDATE());
+------------------------------------------------------------------
+SELECT * FROM logs WHERE action = 'DEADLOCK' ORDER BY created_at;

@@ -1,0 +1,20 @@
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+UPDATE clients 
+SET name = 'Modified Name - Uncommitted' 
+WHERE id = 2;
+INSERT INTO logs (action, status, message)
+VALUES ('DIRTY_READ', 'UPDATE', 'Updated client name to show dirty read');
+WAITFOR DELAY '00:00:10'; -- 10 second delay
+ROLLBACK TRANSACTION;
+INSERT INTO logs (action, status, message)
+VALUES ('DIRTY_READ', 'ROLLBACK', 'Rolled back the name change');
+------------------------------------------------------------------
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED;
+SELECT id, name FROM clients WHERE id = 2;
+INSERT INTO logs (action, status, message)
+VALUES ('DIRTY_READ', 'READ', 'Read uncommitted data');
+COMMIT TRANSACTION;
+------------------------------------------------------------------
+SELECT * FROM logs WHERE action = 'DIRTY_READ' ORDER BY created_at;

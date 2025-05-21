@@ -1,0 +1,17 @@
+CALL InsertProductWithMaterials(
+    'Test Product 123', 
+    1,                  
+    100,                
+    'Material Aa, Material Bb, New Material Cb' 
+);
+SELECT * FROM products ORDER BY id DESC LIMIT 5;
+SELECT * FROM materials ORDER BY id DESC LIMIT 10;
+SELECT * FROM productscomposition ORDER BY product_id DESC LIMIT 10;
+
+CALL InsertProductWithMaterials(
+    'Bad Test Product 2', 
+    1,                  
+    100,                
+    ', Bad material Material b2, New Material c2' 
+);
+

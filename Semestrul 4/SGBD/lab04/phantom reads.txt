@@ -1,0 +1,31 @@
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL REPEATABLE READ; 
+SELECT * FROM clients;
+INSERT INTO logs (action, status, message)
+VALUES ('PHANTOM_READ', 'FIRST_SELECT', 'First query execution - before new row');
+
+WAITFOR DELAY '00:00:10';
+
+SELECT * FROM clients;
+INSERT INTO logs (action, status, message)
+VALUES ('PHANTOM_READ', 'SECOND_SELECT', 'Second query execution - may see new row');
+
+COMMIT TRANSACTION;
+------------------------------------------------------------------
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+
+INSERT INTO clients (name, phone_number, mail)
+VALUES ('Phantom Client', '555-9999', 'phantom@example.com');
+INSERT INTO logs (action, status, message)
+VALUES ('PHANTOM_READ', 'INSERT', 'Inserted new client during another transaction');
+
+COMMIT TRANSACTION;
+------------------------------------------------------------------
+SELECT * FROM logs WHERE action = 'PHANTOM_READ' ORDER BY created_at;
+------------------------------------------------------------------
+BEGIN TRANSACTION;
+DELETE FROM clients WHERE name = 'Phantom Client';
+INSERT INTO logs (action, status, message)
+VALUES ('PHANTOM_READ', 'CLEANUP', 'Removed the phantom client');
+COMMIT TRANSACTION;

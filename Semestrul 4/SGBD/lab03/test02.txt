@@ -1,0 +1,18 @@
+CALL InsertProductWithMaterialsPartial(
+    'Test Product 5', 
+    1,                  
+    100,                
+    'Material A5, Material B5, Material C5' 
+);
+SELECT * FROM products ORDER BY id DESC LIMIT 5;
+SELECT * FROM materials ORDER BY id DESC LIMIT 10;
+SELECT * FROM productscomposition ORDER BY product_id DESC LIMIT 10;
+
+CALL InsertProductWithMaterialsPartial(
+    'Bad Test Product 5', 
+    1,                  
+    100,                
+    ', Bad material Material b5, Bad Material c5' 
+);
+
+select * from logs order by created_at DESC;

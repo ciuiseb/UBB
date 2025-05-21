@@ -1,0 +1,34 @@
+CREATE OR REPLACE FUNCTION uf_ValidateProductName(product_name VARCHAR(255)) 
+RETURNS BOOLEAN AS $$
+BEGIN
+    RETURN product_name IS NOT NULL AND LENGTH(TRIM(product_name)) > 0 AND LENGTH(product_name) <= 255;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION uf_ValidateFactoryId(factory_id INTEGER) 
+RETURNS BOOLEAN AS $$
+BEGIN
+    RETURN EXISTS (SELECT 1 FROM factories WHERE id = factory_id);
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION uf_ValidateStock(stock INTEGER) 
+RETURNS BOOLEAN AS $$
+BEGIN
+    RETURN stock IS NOT NULL AND stock >= 0;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION uf_ValidateMaterialName(material_name VARCHAR(255)) 
+RETURNS BOOLEAN AS $$
+BEGIN
+    RETURN material_name IS NOT NULL AND LENGTH(TRIM(material_name)) > 0 AND LENGTH(material_name) <= 255;
+END;
+$$ LANGUAGE plpgsql;
+
+CREATE OR REPLACE FUNCTION uf_ValidateMaterialList(material_list TEXT) 
+RETURNS BOOLEAN AS $$
+BEGIN
+    RETURN material_list IS NOT NULL AND LENGTH(TRIM(material_list)) > 0;
+END;
+$$ LANGUAGE plpgsql;

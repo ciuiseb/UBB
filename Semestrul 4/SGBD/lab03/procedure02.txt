@@ -1,0 +1,120 @@
+CREATE OR REPLACE PROCEDURE InsertProductWithMaterialsPartial(
+    p_product_name VARCHAR(255),
+    p_factory_id INTEGER,
+    p_stock INTEGER,
+    p_material_names TEXT
+)
+AS $$
+DECLARE
+    new_product_id INTEGER;
+    material_name VARCHAR(255);
+    material_id INTEGER;
+    material_names_array TEXT[];
+    valid_material_ids INTEGER[] := ARRAY[]::INTEGER[];
+    all_materials_valid BOOLEAN := TRUE;
+    i INTEGER;
+BEGIN
+    -- Log start
+    INSERT INTO logs (action, status, message, created_at)
+    VALUES ('InsertProductWithMaterialsPartial', 'INFO', 'Starting procedure', NOW());
+    
+    -- STEP 1: Process each material separately
+    material_names_array := string_to_array(p_material_names, ',');
+    
+    FOR i IN 1..array_length(material_names_array, 1) LOOP
+        material_name := TRIM(material_names_array[i]);
+        
+        -- Process each material in its own transaction
+        BEGIN
+            -- Validate material name
+            IF NOT uf_ValidateMaterialName(material_name) THEN
+                RAISE EXCEPTION 'Invalid material name: %', material_name;
+            END IF;
+            
+            -- Check if material exists
+            SELECT id INTO material_id FROM materials WHERE name = material_name;
+            
+            -- If not, create it
+            IF material_id IS NULL THEN
+                INSERT INTO materials (name) VALUES (material_name)
+                RETURNING id INTO material_id;
+            END IF;
+            
+            -- Add to valid materials
+            valid_material_ids := array_append(valid_material_ids, material_id);
+            
+            -- Commit this material
+            COMMIT;
+            
+            -- Log material success
+            INSERT INTO logs (action, status, message, created_at)
+            VALUES ('InsertProductWithMaterialsPartial', 'INFO', 'Material processed: ' || material_name, NOW());
+            
+        EXCEPTION
+            WHEN OTHERS THEN
+                -- Roll back only this material
+                ROLLBACK;
+                
+                -- Flag that not all materials are valid
+                all_materials_valid := FALSE;
+                
+                -- Log material error
+                INSERT INTO logs (action, status, message, created_at)
+                VALUES ('InsertProductWithMaterialsPartial', 'ERROR', 'Invalid material: ' || material_name, NOW());
+        END;
+    END LOOP;
+    
+    -- STEP 2: Only insert product if ALL materials are valid
+    IF all_materials_valid THEN
+        BEGIN
+            -- Insert product
+            INSERT INTO products (name, factory_id, stock, last_updated)
+            VALUES (p_product_name, p_factory_id, p_stock, NOW())
+            RETURNING id INTO new_product_id;
+            
+            COMMIT;
+            
+            -- Log product success
+            INSERT INTO logs (action, status, message, created_at)
+            VALUES ('InsertProductWithMaterialsPartial', 'INFO', 'Product created: ' || p_product_name, NOW());
+            
+        EXCEPTION
+            WHEN OTHERS THEN
+                ROLLBACK;
+                
+                -- Log product error but materials are preserved
+                INSERT INTO logs (action, status, message, created_at)
+                VALUES ('InsertProductWithMaterialsPartial', 'ERROR', 'Product creation failed, materials preserved', NOW());
+                
+                RETURN;
+        END;
+        
+        -- STEP 3: Create relationships with valid materials
+        IF new_product_id IS NOT NULL THEN
+            -- Process each valid material ID
+            FOREACH material_id IN ARRAY valid_material_ids LOOP
+                BEGIN
+                    -- Create relationship
+                    INSERT INTO productscomposition (product_id, material_id)
+                    VALUES (new_product_id, material_id);
+                    
+                    COMMIT;
+                EXCEPTION
+                    WHEN OTHERS THEN
+                        ROLLBACK;
+                        
+                        -- Log relationship error
+                        INSERT INTO logs (action, status, message, created_at)
+                        VALUES ('InsertProductWithMaterialsPartial', 'ERROR', 
+                              'Relationship creation failed for material ID: ' || material_id, NOW());
+                END;
+            END LOOP;
+        END IF;
+    ELSE
+        -- Log that not all materials were valid, so product was not added
+        INSERT INTO logs (action, status, message, created_at)
+        VALUES ('InsertProductWithMaterialsPartial', 'WARNING', 
+              'Product not added because some materials were invalid. Valid materials were preserved.', NOW());
+    END IF;
+END;
+$$ LANGUAGE plpgsql;

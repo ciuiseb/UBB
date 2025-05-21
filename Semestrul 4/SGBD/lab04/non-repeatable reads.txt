@@ -1,0 +1,25 @@
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED; 
+SELECT id, name FROM clients WHERE id = 2;
+INSERT INTO logs (action, status, message)
+VALUES ('NON_REPEATABLE_READ', 'FIRST_READ', 'First read of client data');
+
+WAITFOR DELAY '00:00:10';
+
+SELECT id, name FROM clients WHERE id = 2;
+INSERT INTO logs (action, status, message)
+VALUES ('NON_REPEATABLE_READ', 'SECOND_READ', 'Second read of client data');
+
+COMMIT TRANSACTION;
+------------------------------------------------------------------
+BEGIN TRANSACTION;
+SET TRANSACTION ISOLATION LEVEL READ COMMITTED;
+UPDATE clients SET name = 'Updated During Transaction' WHERE id = 2;
+INSERT INTO logs (action, status, message)
+VALUES ('NON_REPEATABLE_READ', 'UPDATE', 'Modified client name during another transaction');
+
+COMMIT TRANSACTION;
+------------------------------------------------------------------
+SELECT * FROM logs WHERE action = 'NON_REPEATABLE_READ' ORDER BY created_at;
+------------------------------------------------------------------
+UPDATE clients SET name = 'Gabriel Garcia Marquez' WHERE id = 2;
