@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+main {
+    background-color: green;
+    color: white;
+    text-align: center;
+    flex-grow: 1;
+    display: flex;
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    background-color: yellow;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+}
+
+.menu ul li {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    background-color: pink;
+    padding: 20px;
+    width: 100%;
+}

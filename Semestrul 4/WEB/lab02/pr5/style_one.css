@@ -1,0 +1,31 @@
+.container {
+    display: block;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container ul {
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin: 30px;
+}
+
+.container li {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00ffff;
+    max-width: 200px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.image-box img {
+    max-width: 125px;
+    height: auto;
+}

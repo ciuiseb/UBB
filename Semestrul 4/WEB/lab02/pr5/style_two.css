@@ -1,0 +1,29 @@
+.container {
+    display: block;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.container ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: yellow;
+    width: 400px;
+    text-align: left;
+}
+
+.image-box img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}

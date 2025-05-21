@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div id="game-board" class="game-board"></div>
+    <div class="mode-switch">
+        <a href="#" id="number-mode" class="active">Numbers</a> |
+        <a href="#" id="image-mode">Images</a>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="v1.js"></script>
+<script src="v2.js"></script>
+
+<script>
+    $(document).ready(function() {
+        const $numberMode = $('#number-mode');
+        const $imageMode = $('#image-mode');
+        const $gameBoard = $('#game-board');
+
+        window.showNumberGame = true;
+        window.showImageGame = false;
+
+        $numberMode.on('click', function(e) {
+            e.preventDefault();
+            if (!window.showNumberGame) {
+                $numberMode.addClass('active');
+                $imageMode.removeClass('active');
+                window.showNumberGame = true;
+                window.showImageGame = false;
+                $gameBoard.empty();
+                $gameBoard.attr('class', 'game-board');
+                window.initNumberGame();
+            }
+        });
+
+        $imageMode.on('click', function(e) {
+            e.preventDefault();
+            if (!window.showImageGame) {
+                $imageMode.addClass('active');
+                $numberMode.removeClass('active');
+                window.showNumberGame = false;
+                window.showImageGame = true;
+                $gameBoard.empty();
+                $gameBoard.attr('class', 'game-board');
+                window.initImageGame();
+            }
+        });
+    });
+</script>
+</body>
+</html>

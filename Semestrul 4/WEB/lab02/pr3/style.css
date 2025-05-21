@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: red;
+    height: 100px;
+    color: black;
+}
+
+.menu {
+    background: yellow;
+    height: 25px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+.menu ul li {
+    padding: 0 15px;
+}
+
+main {
+    background: green;
+    flex: 1;
+    padding: 20px;
+}
+
+footer {
+    background: pink;
+    height: 60px;
+    color: black;
+}

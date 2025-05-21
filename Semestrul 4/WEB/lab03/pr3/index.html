@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <div id="game-board" class="game-board"></div>
+    <div class="mode-switch">
+        <a href="#" id="number-mode" class="active">Numbers</a> |
+        <a href="#" id="image-mode">Images</a>
+    </div>
+</div>
+
+<script src="v1.js"></script>
+<script src="v2.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const numberMode = document.getElementById('number-mode');
+        const imageMode = document.getElementById('image-mode');
+        const gameBoard = document.getElementById('game-board');
+
+        window.showNumberGame = true;
+        window.showImageGame = false;
+
+        numberMode.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (!window.showNumberGame) {
+                numberMode.classList.add('active');
+                imageMode.classList.remove('active');
+                window.showNumberGame = true;
+                window.showImageGame = false;
+                gameBoard.innerHTML = '';
+                gameBoard.className = 'game-board';
+                window.initNumberGame();
+            }
+        });
+
+        imageMode.addEventListener('click', function(e) {
+            e.preventDefault();
+            if (!window.showImageGame) {
+                imageMode.classList.add('active');
+                numberMode.classList.remove('active');
+                window.showNumberGame = false;
+                window.showImageGame = true;
+                gameBoard.innerHTML = '';
+                gameBoard.className = 'game-board';
+                window.initImageGame();
+            }
+        });
+    });
+</script>
+</body>
+</html>

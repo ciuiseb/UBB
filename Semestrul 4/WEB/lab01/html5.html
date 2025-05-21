@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Înscriere Bibliotecă</title>
+</head>
+<body>
+<header>
+    <h1 style="text-align:center;">Înscriere la Biblioteca Publică</h1>
+    <img src="imagine.jpg" alt="Sigla" title="Biblioteca Publică" width="200" height="100">
+</header>
+
+<nav>
+    <p><a href="https://linkcarefunctioneaza.ro" target="_blank">Accesează site-ul bibliotecii</a></p>
+</nav>
+
+<form onsubmit="this.reset(); return false;">
+    <fieldset>
+        <legend>Informații personale</legend>
+        <table style="width:100%">
+            <tr>
+                <td>Nume:</td>
+                <td><input type="text" name="nume" maxlength="50" required ></td>
+            </tr>
+            <tr>
+                <td>Prenume:</td>
+                <td><input type="text" name="prenume" maxlength="50" required></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Telefon:</td>
+                <td><input type="text" name="telefon" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td>Adresă:</td>
+                <td><textarea name="adresa" cols="40" rows="3"></textarea></td>
+            </tr>
+            <tr>
+                <td><b>Varsta:</b></td>
+                <td><input type="number" name="varsta" max="99"></td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Detalii cont</legend>
+        <table style="width:100%">
+            <tr>
+                <td>Tip utilizator:</td>
+                <td>
+                    <input type="radio" name="tip_utilizator" value="student"> Student
+                    <input type="radio" name="tip_utilizator" value="profesor"> Profesor
+                    <input type="radio" name="tip_utilizator" value="altele"> Altele
+                </td>
+            </tr>
+            <tr>
+                <td>Gen literar preferat:</td>
+                <td>
+                    <select name="gen_literar">
+                        <option value="fictiune">Ficțiune</option>
+                        <option value="istorie">Istorie</option>
+                        <option value="stiinta">Știință</option>
+                        <option value="biografie">Biografie</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend>Orar preferat pentru vizite</legend>
+        <table style="width:100%">
+            <tr>
+                <td>
+                    <table style="width:100%">
+                        <tr>
+                            <th>Zi</th>
+                            <th>Dimineața</th>
+                            <th>După-amiaza</th>
+                            <th>Seara</th>
+                        </tr>
+                        <tr>
+                            <td>Luni</td>
+                            <td><input type="checkbox" name="luni_dim"></td>
+                            <td><input type="checkbox" name="luni_dupamasa"></td>
+                            <td><input type="checkbox" name="luni_seara"></td>
+                        </tr>
+                        <tr>
+                            <td>Marți</td>
+                            <td><input type="checkbox" name="marti_dim"></td>
+                            <td><input type="checkbox" name="marti_dupamasa"></td>
+                            <td><input type="checkbox" name="marti_seara"></td>
+                        </tr>
+                        <tr>
+                            <td>Miercuri</td>
+                            <td><input type="checkbox" name="miercuri_dim"></td>
+                            <td><input type="checkbox" name="miercuri_dupamasa"></td>
+                            <td><input type="checkbox" name="miercuri_seara"></td>
+                        </tr>
+                        <tr>
+                            <td>Joi</td>
+                            <td><input type="checkbox" name="joi_dim"></td>
+                            <td><input type="checkbox" name="joi_dupamasa"></td>
+                            <td><input type="checkbox" name="joi_seara"></td>
+                        </tr>
+                        <tr>
+                            <td>Vineri</td>
+                            <td><input type="checkbox" name="vineri_dim"></td>
+                            <td><input type="checkbox" name="vineri_dupamasa"></td>
+                            <td><input type="checkbox" name="vineri_seara"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Alte informații</b></legend>
+        <ol start="102">
+            <li><b>Beneficii:</b>
+                <ul>
+                    <li>Împrumut gratuit de cărți</li>
+                    <li>Acces la internet</li>
+                </ul>
+            </li>
+            <li><b>Reguli:</b>
+                <ol start="1">
+                    <li>Respectarea termenelor de returnare</li>
+                    <li>Păstrarea liniștii</li>
+                </ol>
+            </li>
+            <li><b>Evenimente:</b>
+                <ol start="3">
+                    <li>Club de lectură</li>
+                    <li>Seminarii tematice</li>
+                </ol>
+            </li>
+        </ol>
+    </fieldset>
+
+    <div style="text-align:center;">
+        <input type="submit" value="Trimite">
+        <input type="reset" value="Resetează">
+    </div>
+</form>
+</body>
+</html>

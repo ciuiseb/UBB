@@ -1,0 +1,146 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//RO"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Formular Înscriere Bibliotecă</title>
+</head>
+<body>
+<h1 align="center"><b>Înscriere la Biblioteca Publică</b></h1>
+
+<img src="imagine.jpg" alt="Logo indisponibil" title="Biblioteca Publică" width="200" height="100">
+
+<p><a href="https://linkcarefunctioneaza.ro" target="_blank">Accesează site-ul bibliotecii</a></p>
+
+<form action="javascript:void(0);">
+    <fieldset>
+        <legend><b>Informații personale</b></legend>
+        <table border="1" width="100%">
+            <tr>
+                <td><b>Nume:</b></td>
+                <td><input type="text" name="nume" maxlength="50" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Prenume:</b></td>
+                <td><input type="text" name="prenume" maxlength="50" size="30"></td>
+            </tr>
+            <tr>
+                <td><b>Email:</b></td>
+                <td><input type="text" name="email" maxlength="100" size="40" readonly></td>
+            </tr>
+            <tr>
+                <td><b>Telefon:</b></td>
+                <td><input type="text" name="telefon" maxlength="15"></td>
+            </tr>
+            <tr>
+                <td><b>Adresă:</b></td>
+                <td><textarea name="adresa" cols="20" rows="1"></textarea></td>
+            </tr>
+
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Detalii cont</b></legend>
+        <table border="1" width="100%">
+            <tr>
+                <td><b>Tip utilizator:</b></td>
+                <td>
+                    <input type="radio" name="tip_utilizator" value="student" checked> Student
+                    <input type="radio" name="tip_utilizator" value="profesor"> Profesor
+                    <input type="radio" name="tip_utilizator" value="altele"> Altele
+                </td>
+            </tr>
+            <tr>
+                <td><b>Gen literar preferat:</b></td>
+                <td>
+                    <select name="gen_literar" size="4" multiple>
+                        <option value="fictiune" selected>Ficțiune</option>
+                        <option value="istorie">Istorie</option>
+                        <option value="stiinta">Știință</option>
+                        <option value="biografie">Biografie</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Orar preferat pentru vizite</b></legend>
+        <table border="1" width="100%">
+            <tr>
+                <td colspan="2">
+                    <table border="1" width="100%">
+                        <tr>
+                            <th bgcolor="#ff0000">Zi</th>
+                            <th bgcolor="#ff0000">Dimineața</th>
+                            <th bgcolor="#ff0000">După-amiaza</th>
+                            <th bgcolor="#ff0000">Seara</th>
+                        </tr>
+                        <tr>
+                            <td valign="middle">Luni</td>
+                            <td align="center"><input type="checkbox" name="luni_dim"></td>
+                            <td align="center"><input type="checkbox" name="luni_dupamasa"></td>
+                            <td align="center"><input type="checkbox" name="luni_seara"></td>
+                        </tr>
+                        <tr>
+                            <td valign="middle">Marți</td>
+                            <td align="center"><input type="checkbox" name="marti_dim"></td>
+                            <td align="center"><input type="checkbox" name="marti_dupamasa"></td>
+                            <td align="center"><input type="checkbox" name="marti_seara"></td>
+                        </tr>
+                        <tr>
+                            <td valign="middle">Miercuri</td>
+                            <td align="center"><input type="checkbox" name="miercuri_dim"></td>
+                            <td align="center"><input type="checkbox" name="miercuri_dupamasa"></td>
+                            <td align="center"><input type="checkbox" name="miercuri_seara"></td>
+                        </tr>
+                        <tr>
+                            <td valign="middle">Joi</td>
+                            <td align="center"><input type="checkbox" name="joi_dim"></td>
+                            <td align="center"><input type="checkbox" name="joi_dupamasa"></td>
+                            <td align="center"><input type="checkbox" name="joi_seara"></td>
+                        </tr>
+                        <tr>
+                            <td valign="middle">Vineri</td>
+                            <td align="center"><input type="checkbox" name="vineri_dim"></td>
+                            <td align="center"><input type="checkbox" name="vineri_dupamasa"></td>
+                            <td align="center"><input type="checkbox" name="vineri_seara"></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+
+    <fieldset>
+        <legend><b>Alte informații</b></legend>
+        <ol start="102">
+            <li><b>Beneficii:</b>
+                <ul>
+                    <li><span>Împrumut gratuit</span> de cărți</li>
+                    <li>Acces la internet</li>
+                </ul>
+            </li>
+            <li><b>Reguli:</b>
+                <ol start="1">
+                    <li>Respectarea termenelor de returnare</li>
+                    <li>Păstrarea liniștii</li>
+                </ol>
+            </li>
+            <li><b>Evenimente:</b>
+                <ol start="3">
+                    <li>Club de lectură</li>
+                    <li>Seminarii tematice</li>
+                </ol>
+            </li>
+        </ol>
+    </fieldset>
+
+    <div align="center">
+        <input type="submit" value="Trimite" disabled>
+        <input type="reset" value="Resetează">
+    </div>
+</form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.social-menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.social-menu li {
+    width: 84px;
+    height: 84px;
+    background-image: url('img.png');
+}
+
+.facebook { background-position: 0 -84px; }
+.flickr { background-position: -84px -84px; }
+.dribbble { background-position: -168px -84px; }
+.google-plus { background-position: -252px -84px; }
+.linkedin { background-position: -336px -84px; }
+.pinterest { background-position: -420px -84px; }
+.rss { background-position: -504px -84px; }
+.skype { background-position: -588px -84px; }
+.twitter { background-position: -672px -84px; }
+.vimeo { background-position: -756px -84px; }
+.youtube { background-position: -840px -84px; }
+
+.social-menu li:hover {
+    background-position-y: 0;
+}

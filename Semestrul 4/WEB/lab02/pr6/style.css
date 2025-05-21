@@ -1,0 +1,26 @@
+body {
+    font-size: 10px;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.label {
+    width: 100px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.char-input {
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 10px;
+    border: 1px solid black;
+    margin: 0;
+}

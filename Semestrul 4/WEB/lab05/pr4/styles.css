@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+th:hover {
+    background-color: #ddd;
+}
+
+.sort-indicator {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.table-container {
+    margin-bottom: 40px;
+}
+
+
+.vertical {
+    border-collapse: collapse;
+}
+
+.vertical thead {
+    display: block;
+    float: left;
+}
+
+.vertical tbody {
+    display: block;
+
+}
+
+.vertical tbody tr {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.vertical th {
+    display: block;
+    text-align: right;
+}
+
+.vertical td {
+    display: block;
+}
