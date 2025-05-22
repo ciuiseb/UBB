@@ -29,7 +29,7 @@
 [Used ORM(entity framework and hibernate) for 2 entities.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab11)
 
 ## Lab 12
-[REST services for Event entity.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab12)
+[REST services for Event entity, plus some testing in - who would've tought, java and c#.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab12)
 
 ## Lab 13
 [React client that makes use of the anterior REST services.](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab13)
