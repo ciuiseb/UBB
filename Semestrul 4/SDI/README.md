@@ -26,13 +26,13 @@
 [](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab09-10)
 
 ## Lab 11
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab011)
+[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab11)
 
 ## Lab 12
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab012)
+[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab12)
 
 ## Lab 13
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab013)
+[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab13)
 
 ## Lab 14
-[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab014)
+[](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI/lab14)
