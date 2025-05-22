@@ -1,4 +1,4 @@
-# Advanced methods of programming
+# Artificial intelligence
 ## Lab 1
 [](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/AI/lab01)
 
