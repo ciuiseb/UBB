@@ -17,12 +17,10 @@
   + [Artificial intelligence](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/AI)
   + [Web programming](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/WEB)
   + [Systems for design and implementation](https://github.com/ciuiseb/UBB/tree/main/Semestrul%204/SDI)
-
-
 ## Fifth semester
   + [Formal Languages and Compiler Design](https://github.com/ciuiseb/UBB/tree/main/Semestrul%205/FLCD)
   + [Parallel and Distributed Programming](https://github.com/ciuiseb/UBB/tree/main/Semestrul%205/PDP)
-  + [Mobile Application Development](https://github.com/ciuiseb/UBB/tree/main/Semestrul%20MAD)
+  + [Mobile Application Development](https://github.com/ciuiseb/UBB/tree/main/Semestrul%205/MAD)
 ## Sixth semester
   + [Numerical Calculus](https://github.com/ciuiseb/UBB/tree/main/Semestrul%206/NC)
   + [Design Patterns](https://github.com/ciuiseb/UBB/tree/main/Semestrul%206/DP)
