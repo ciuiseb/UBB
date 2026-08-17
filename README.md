@@ -1,5 +1,9 @@
 # Computer Science homework assignments @ Babes-Bolyai University
 
+## Thesis
+  + [Rezolvarea ecuațiilor diferențiale prin PINN: O abordare full-stack pentru validare și vizualizare în timp real](https://github.com/ciuiseb/licenta/blob/main/paper.pdf)
+  + [App](https://github.com/ciuiseb/licenta)
+
 ## First semester
   + [Computer Systems Architecture](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/ASC)
   + [Fundamentals of Programming](https://github.com/ciuiseb/UBB/tree/main/Semestrul%201/FP)
