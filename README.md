@@ -27,5 +27,5 @@
   + [Numerical Calculus](https://github.com/ciuiseb/UBB/tree/main/Semestrul%206/NC)
   + [Design Patterns](https://github.com/ciuiseb/UBB/tree/main/Semestrul%206/DP)
   + [Game Dev](https://github.com/ciuiseb/UBB/tree/main/Semestrul%206/GD)
-  + [Software Verification and Validation]()
+  + [Software Verification and Validation](https://github.com/Luc0x00/VVSS)
 
