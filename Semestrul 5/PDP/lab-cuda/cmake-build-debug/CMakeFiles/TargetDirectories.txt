@@ -1,0 +1,4 @@
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda/cmake-build-debug/CMakeFiles/gen_data.dir
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda/cmake-build-debug/CMakeFiles/cuda_threads.dir
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda/cmake-build-debug/CMakeFiles/rebuild_cache.dir

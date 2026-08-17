@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Trenuri România</title>
+</head>
+<body>
+<h1>Căutare Trenuri România</h1>
+
+<form id="searchForm">
+    <p>
+        <label>Plecare:</label>
+        <select id="plecare">
+            <option value="">Selectează...</option>
+        </select>
+    </p>
+
+    <p>
+        <label>Sosire:</label>
+        <select id="sosire">
+            <option value="">Selectează...</option>
+        </select>
+    </p>
+
+    <p>
+        <label>
+            <input type="checkbox" id="curse_directe"> Doar curse directe
+        </label>
+    </p>
+
+    <p>
+        <button type="button" onclick="cautaTrenuri()">Caută Trenuri</button>
+    </p>
+</form>
+
+<div id="results"></div>
+
+<script>
+    window.onload = function() {
+        incarcaLocalitati();
+    };
+
+    function incarcaLocalitati() {
+        fetch('server.php?action=getLocalitati')
+            .then(response => response.json())
+            .then(localitati => {
+                const plecare = document.getElementById('plecare');
+                const sosire = document.getElementById('sosire');
+
+                localitati.forEach(loc => {
+                    plecare.innerHTML += `<option value="${loc}">${loc}</option>`;
+                    sosire.innerHTML += `<option value="${loc}">${loc}</option>`;
+                });
+            });
+    }
+
+    function cautaTrenuri() {
+        const plecare = document.getElementById('plecare').value;
+        const sosire = document.getElementById('sosire').value;
+        const curse_directe = document.getElementById('curse_directe').checked;
+
+        if (!plecare || !sosire) {
+            alert('Selectează plecare și sosire!');
+            return;
+        }
+
+        const url = `server.php?action=cautaTrenuri&plecare=${encodeURIComponent(plecare)}&sosire=${encodeURIComponent(sosire)}&curse_directe=${curse_directe}`;
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => {
+                afiseazaRezultate(data);
+            });
+    }
+
+
+    function afiseazaRezultate(data) {
+        const results = document.getElementById('results');
+
+        if (data.error) {
+            results.innerHTML = '<p>Eroare: ' + data.error + '</p>';
+            return;
+        }
+
+        if (data.data.length === 0) {
+            results.innerHTML = '<p>Nu s-au găsit trenuri pentru această rută.</p>';
+            return;
+        }
+
+        let html = '<h2>Rezultate Căutare (' + data.data.length + ' ' + (data.tip === 'directe' ? 'curse directe' : 'curse cu legătură') + ')</h2>';
+
+        if (data.tip === 'directe') {
+            html += '<table border="1"><tr><th>Nr Tren</th><th>Tip</th><th>Plecare</th><th>Sosire</th><th>Ora Plecare</th><th>Ora Sosire</th></tr>';
+
+            data.data.forEach(tren => {
+                html += `<tr>
+                        <td>${tren.nr_tren}</td>
+                        <td>${tren.tip_tren}</td>
+                        <td>${tren.localitate_plecare}</td>
+                        <td>${tren.localitate_sosire}</td>
+                        <td>${tren.ora_plecare}</td>
+                        <td>${tren.ora_sosire}</td>
+                    </tr>`;
+            });
+        } else {
+            html += '<table border="1"><tr><th>Tren 1</th><th>Ora Plecare</th><th>Oras Plecare</th><th>Ora Sosire</th><th>Tren 2</th><th>Ora Plecare</th><th>Oras Intermediar</th><th>Sosire</th><th>Ora Sosire</th></tr>';
+
+            data.data.forEach(legatura => {
+                html += `<tr>
+                        <td>${legatura.tren1}</td>
+                        <td>${legatura.ora1_plecare}</td>
+                        <td>${legatura.plecare}</td>
+                        <td>${legatura.ora1_sosire}</td>
+                        <td>${legatura.tren2}</td>
+                        <td>${legatura.ora2_plecare}</td>
+                        <td>${legatura.intermediara}</td>
+                        <td>${legatura.sosire}</td>
+                        <td>${legatura.ora2_sosire}</td>
+                    </tr>`;
+            });
+        }
+
+        html += '</table>';
+        results.innerHTML = html;
+    }
+</script>
+</body>
+</html>

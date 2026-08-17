@@ -1,0 +1,106 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Books Library</ion-title>
+    <ion-buttons slot="end">
+      <ion-button (click)="openMultiMapModal()">
+        <ion-icon name="map-outline"></ion-icon>
+      </ion-button>
+      <ion-button (click)="handleLogout()">
+        <ion-icon name="log-out-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+
+  <div class="ion-padding-horizontal ion-padding-top">
+    <ion-chip color="success" *ngIf="networkStatus">
+      <ion-icon name="wifi-outline"></ion-icon>
+      <ion-label>Online</ion-label>
+    </ion-chip>
+    <ion-chip color="danger" *ngIf="!networkStatus">
+      <ion-icon name="wifi-outline"></ion-icon>
+      <ion-label>Offline</ion-label>
+    </ion-chip>
+  </div>
+
+  <div class="ion-padding-horizontal">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item lines="inset" class="filter-item">
+            <ion-input
+              type="number"
+              label="Min Year"
+              label-placement="stacked"
+              placeholder="e.g. 2020"
+              [debounce]="500"
+              (ionChange)="onYearChange($event)">
+            </ion-input>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <ion-searchbar
+            placeholder="Search title..."
+            [debounce]="500"
+            (ionChange)="onSearchChange($event)"
+            class="custom-search">
+          </ion-searchbar>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+
+  <ion-refresher slot="fixed" (ionRefresh)="refreshList($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+
+  <ion-list lines="inset">
+    <ion-item *ngFor="let elem of displayedBooks" button [routerLink]="['/items', elem.id]">
+
+      <ion-thumbnail slot="start">
+        <img [src]="elem.photo ? elem.photo : 'assets/placeholder.png'" alt="{{ elem.name }} Photo"/>
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ elem.name }}</h2>
+        <p>{{ elem.author }} • {{ elem.publishing_date | date:'yyyy' }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+    <ion-item *ngIf="displayedBooks.length === 0">
+      <ion-label class="ion-text-center">
+        <p>No books found.</p>
+      </ion-label>
+    </ion-item>
+
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button (click)="handleAdd()" color="primary">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-button (click)="prevPage()" [disabled]="currentPage === 0">
+        <ion-icon name="chevron-back-outline" slot="start"></ion-icon>
+        Prev
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title class="ion-text-center" size="small">
+      Page {{ currentPage + 1 }}
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button (click)="nextPage()" [disabled]="isLastPage">
+        Next
+        <ion-icon name="chevron-forward-outline" slot="end"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

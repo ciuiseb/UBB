@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>X-O Game</title>
+</head>
+<body>
+<h1>X-O Game</h1>
+
+<div id="gameInfo">
+    <p>Tu pui: <span id="humanPlayer"></span></p>
+    <p>Status: <span id="gameStatus"></span></p>
+</div>
+
+<table border="1" style="border-collapse: collapse; margin: 20px 0;">
+    <tr>
+        <td onclick="makeMove(0)" id="cell0" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(1)" id="cell1" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(2)" id="cell2" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+    </tr>
+    <tr>
+        <td onclick="makeMove(3)" id="cell3" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(4)" id="cell4" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(5)" id="cell5" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+    </tr>
+    <tr>
+        <td onclick="makeMove(6)" id="cell6" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(7)" id="cell7" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+        <td onclick="makeMove(8)" id="cell8" style="width: 60px; height: 60px; text-align: center; font-size: 24px; cursor: pointer;"></td>
+    </tr>
+</table>
+
+<button onclick="resetGame()">New Game</button>
+
+<script>
+    let gameActive = true;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadGameState();
+    });
+
+    function loadGameState() {
+        fetch('server.php?action=getState')
+            .then(response => response.json())
+            .then(data => {
+                updateBoard(data);
+                updateGameInfo(data);
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    function makeMove(position) {
+        if (!gameActive) return;
+
+        fetch('server.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                action: 'move',
+                position: position
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                } else {
+                    updateBoard(data);
+                    updateGameInfo(data);
+                }
+            })
+            .catch(error => console.error('Error:', error));
+
+    }
+
+    function updateBoard(data) {
+        for (let i = 0; i < 9; i++) {
+            document.getElementById('cell' + i).textContent = data.board[i];
+        }
+    }
+
+    function updateGameInfo(data) {
+        document.getElementById('humanPlayer').textContent = data.human_player;
+
+        let statusText = '';
+        switch (data.game_status) {
+            case 'active':
+                statusText = data.current_player === data.human_player ? 'Tura ta' : 'Calculatorul se gândește...';
+                gameActive = true;
+                break;
+            case 'human_wins':
+                statusText = 'Ai câștigat!';
+                gameActive = false;
+                break;
+            case 'computer_wins':
+                statusText = 'Calculatorul a câștigat!';
+                gameActive = false;
+                break;
+            case 'draw':
+                statusText = 'Remiză!';
+                gameActive = false;
+                break;
+        }
+
+        document.getElementById('gameStatus').textContent = statusText;
+    }
+
+    function resetGame() {
+        fetch('server.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                action: 'reset'
+            })
+        })
+            .then(response => response.json())
+            .then(data => {
+                updateBoard(data);
+                updateGameInfo(data);
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+</body>
+</html>

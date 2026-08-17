@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="dismiss()">Cancel</ion-button>
+    </ion-buttons>
+    <ion-title>Select Location</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="map-container" style="height: 100%; width: 100%;"></div>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-item lines="none">
+      <ion-label>
+        Selected: {{ selectedLat | number:'1.5-5' }}, {{ selectedLng | number:'1.5-5' }}
+      </ion-label>
+    </ion-item>
+    <ion-buttons slot="end">
+      <ion-button
+        (click)="saveLocation()"
+        color="primary"
+        [disabled]="!selectedLat || !selectedLng"
+      >
+        Save Location
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

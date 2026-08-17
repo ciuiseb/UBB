@@ -1,0 +1,12 @@
+# ninja log v6
+5	7694	7882763785278811	CMakeFiles/gen_data.dir/PopulateFile.cu.obj	9d43a3579334539
+7694	9498	7882763862172416	CMakeFiles/gen_data.dir/cmake_device_link.obj	207c052881e437c6
+9860	10365	7882754885440851	lab_cuda.exe	5d42cd147a44a41b
+9498	9714	7882763880209853	gen_data.exe	6dcefe40886d140a
+5	7986	7882754786892836	CMakeFiles/lab_cuda.dir/CudaSequential.cu.obj	b587a3d56958733a
+7986	9860	7882754866703125	CMakeFiles/lab_cuda.dir/cmake_device_link.obj	6ac9cbccd2a82cf2
+4	5212	7882766193595776	CMakeFiles/cuda_sequential.dir/CudaSequential.cu.obj	3f1148554b14708b
+5212	7056	7882766245681086	CMakeFiles/cuda_sequential.dir/cmake_device_link.obj	8f905bc1b53439cb
+7056	7229	7882766264117186	cuda_sequential.exe	dc0040fcf45591c0
+10	7188	7882758718476031	CMakeFiles/cuda_sequential.dir/OutputValidator.cu.obj	85045e9fc091691f
+5	150	7882770305223284	build.ninja	6cb93114be84dd7

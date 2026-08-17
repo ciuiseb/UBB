@@ -1,0 +1,5 @@
+rootProject.name = 'final-project'
+include 'Model'
+include 'Server'
+include 'Client'
+

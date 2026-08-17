@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+</head>
+<body>
+<form action="server.php" method="POST">
+  <input type="hidden" name="action" value="login">
+  <label>User:</label><br>
+  <input type="text" name="user" required><br><br>
+
+  <label>Password:</label><br>
+  <input type="password" name="password" required><br><br>
+
+  <input type="submit" value="Login">
+  <input type="button" value="Sign Up" onclick="location.href='signup.html'">
+</form>
+
+<script>
+  window.onload = function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    if (urlParams.get('error') === '1') {
+      alert('Invalid user or password!');
+    } else if (urlParams.get('verified') === '1') {
+      alert('Account verified successfully! You can now login.');
+    } else if (urlParams.get('verify_error') === '1') {
+      alert('Invalid verification token.');
+    }
+  };
+</script>
+</body>
+</html>

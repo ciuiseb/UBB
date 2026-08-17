@@ -1,0 +1,90 @@
+2026-02-04 22:39:27 | Opera (10-Mai) | Sold: 5900.00 | Vanzari: [21e64c40, a593e674, 456e2bd6, c8159610, 664db2bd, ceef1fc5, 19f3bed5, 65a14ab3, 737e92ea, bbc5bdef, 744ee872, 86fe7d92, 2a7080f4, 0e3a6a63, 02c88565, be28cb5d, a3650d88, 37b571c5, f7cc0463, 22e44cb1, 71344cbb, cf4f1002] | CORECT
+2026-02-04 22:39:27 | Balet (11-Mai) | Sold: 9400.00 | Vanzari: [52710725, 85694f07, 23654fbc, 3d6144e6, 66fbe64e, 89b5c3e3, 19c5d815, c3191643, f3447bf6, 4539bf0d, 5d2f6e95, aa7545cb, d8abb7b7, a5bc32c5, 7ba69347, b5fd1bf4, f264061f, c8de83b3] | CORECT
+2026-02-04 22:39:27 | Teatru (12-Mai) | Sold: 7200.00 | Vanzari: [f110fbcd, 100c52a4, 23694b4e, 0cc2c4f7, ce0c3ee9, cb389946, 34f5c54a, 723d6b99, 0900e7d1, b91803ba, 24d2ecf9, 42b0205c, 456c1d5d, 07934c66, 9cdb65ab, 31c2e3ab] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:39:32 | Opera (10-Mai) | Sold: 6700.00 | Vanzari: [21e64c40, a593e674, 456e2bd6, c8159610, 664db2bd, ceef1fc5, 19f3bed5, 65a14ab3, 737e92ea, bbc5bdef, 744ee872, 86fe7d92, 2a7080f4, 0e3a6a63, 02c88565, be28cb5d, a3650d88, 37b571c5, f7cc0463, 22e44cb1, 71344cbb, cf4f1002, 58ea74c3, 9d315345, 68bac5cf, 1edccd20, 37977385, e54ad6f8, 6c6342d4] | CORECT
+2026-02-04 22:39:32 | Balet (11-Mai) | Sold: 10800.00 | Vanzari: [52710725, 85694f07, 23654fbc, 3d6144e6, 66fbe64e, 89b5c3e3, 19c5d815, c3191643, f3447bf6, 4539bf0d, 5d2f6e95, aa7545cb, d8abb7b7, a5bc32c5, 7ba69347, b5fd1bf4, f264061f, c8de83b3, b332399c, 074ee888, ae8935c8, d2c282df, ddfde842, 344144b0] | CORECT
+2026-02-04 22:39:32 | Teatru (12-Mai) | Sold: 10200.00 | Vanzari: [f110fbcd, 100c52a4, 23694b4e, 0cc2c4f7, ce0c3ee9, cb389946, 34f5c54a, 723d6b99, 0900e7d1, b91803ba, 24d2ecf9, 42b0205c, 456c1d5d, 07934c66, 9cdb65ab, 31c2e3ab, 33bd9a71, acaf4387, b9878757, 77d98a33, d2803dae, 5ec0cf68, e8b22649, 362d92ea, f6cd4da5, d716baf5, 016dccd8] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:40:01 | Opera (10-Mai) | Sold: 1800.00 | Vanzari: [00f4ac8c, 37045fae, 81004ecf, 665a1a72, 6113527f] | CORECT
+2026-02-04 22:40:01 | Balet (11-Mai) | Sold: 2000.00 | Vanzari: [5a1dfc4b, e3a1105d, 211a55a0] | CORECT
+2026-02-04 22:40:01 | Teatru (12-Mai) | Sold: 1500.00 | Vanzari: [0ea3d5f0, 719b54fd, b400c6b5, 92af4a2c, 242aec64] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:40:06 | Opera (10-Mai) | Sold: 2600.00 | Vanzari: [00f4ac8c, 37045fae, 81004ecf, 665a1a72, 6113527f, e6af9aaa, 43ca3a0d, 70549b49] | CORECT
+2026-02-04 22:40:06 | Balet (11-Mai) | Sold: 4200.00 | Vanzari: [5a1dfc4b, e3a1105d, 211a55a0, f223f824, b659ce5e, 6f9537aa, dcb0fc82] | CORECT
+2026-02-04 22:40:06 | Teatru (12-Mai) | Sold: 3300.00 | Vanzari: [0ea3d5f0, 719b54fd, b400c6b5, 92af4a2c, 242aec64, 85b88565, 811cc37c, fd71707b, 0f2d04db] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:40:19 | Opera (10-Mai) | Sold: 1600.00 | Vanzari: [07ab3a84, 1accc996, f1a74491, 0920f77a] | CORECT
+2026-02-04 22:40:19 | Balet (11-Mai) | Sold: 4800.00 | Vanzari: [99196c73, 317363d8, b946986f, c92ae479, 6c332445, 7d66b1b9, c39d2f0e] | CORECT
+2026-02-04 22:40:19 | Teatru (12-Mai) | Sold: 3600.00 | Vanzari: [4cb04090, d5f923df, bfb07c8d, 2f139733, 3cd92f50, 328c6b3b, 057bd143, 1deaf37f] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:40:24 | Opera (10-Mai) | Sold: 2700.00 | Vanzari: [07ab3a84, 1accc996, f1a74491, 0920f77a, ed96b19b, 1a67ee13, 161efb05, 9ee112e8, fa8112de] | CORECT
+2026-02-04 22:40:24 | Balet (11-Mai) | Sold: 6600.00 | Vanzari: [99196c73, 317363d8, b946986f, c92ae479, 6c332445, 7d66b1b9, c39d2f0e, 0bc372d0, 18031353, 1a232116, f82f6fa5] | CORECT
+2026-02-04 22:40:24 | Teatru (12-Mai) | Sold: 4500.00 | Vanzari: [4cb04090, d5f923df, bfb07c8d, 2f139733, 3cd92f50, 328c6b3b, 057bd143, 1deaf37f, 7c024511, 7f94ecf8, db84f94d, 7fd64043] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:41:03 | Opera (10-Mai) | Sold: 4600.00 | Vanzari: [ee03bab5, 54bb885b, b9db944c, 5886f498, b26312d2, fa99fc73, 0cd003e6, 8f6af20f, eb6c6a52, 5e1d930f, 4f53b14d, 5387db6a, 182af3a2, 26f6033c, c662c692, 06b9b1fc, 2a5c1408, 2f582030, 14be01c7, 332cc8ec, 1c92afda] | CORECT
+2026-02-04 22:41:03 | Balet (11-Mai) | Sold: 10000.00 | Vanzari: [50bda996, 8ec71c08, 16b1bffb, 1dfda75a, 335eec7a, 6669f288, 03e44f03, 3a3900be, 7130b21b, e46e9369, 7112c4e8, b72ddbe0, 7baa6cb9, b6ada727, cda2aee1, 7604e631, 3db58b2b, 518945b5, af2e056f, 7576e7d0, 587f4049, 53270c33, fb7a0261] | CORECT
+2026-02-04 22:41:03 | Teatru (12-Mai) | Sold: 7200.00 | Vanzari: [6d6307af, 88c02cfb, 1474d65e, 79b42d49, 7cc27414, 942e304b, 6a2fcbf3, d69081b6, 58e01e0f, bd94d1d1, 804e308f, 0ed5e534, 4cc76fe7, db401926, e91414e6, 810227c8, 99897717] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:41:08 | Opera (10-Mai) | Sold: 5800.00 | Vanzari: [ee03bab5, 54bb885b, b9db944c, 5886f498, b26312d2, fa99fc73, 0cd003e6, 8f6af20f, eb6c6a52, 5e1d930f, 4f53b14d, 5387db6a, 182af3a2, 26f6033c, c662c692, 06b9b1fc, 2a5c1408, 2f582030, 14be01c7, 332cc8ec, 1c92afda, 9d102f05, 2318eeab, af011d61, f626ddbe, 3fbb85d4, 647aa0b0, c3c68c72, b27a8e9c, bd3058f6] | CORECT
+2026-02-04 22:41:08 | Balet (11-Mai) | Sold: 13400.00 | Vanzari: [50bda996, 8ec71c08, 16b1bffb, 1dfda75a, 335eec7a, 6669f288, 03e44f03, 3a3900be, 7130b21b, e46e9369, 7112c4e8, b72ddbe0, 7baa6cb9, b6ada727, cda2aee1, 7604e631, 3db58b2b, 518945b5, af2e056f, 7576e7d0, 587f4049, 53270c33, fb7a0261, 31eec21b, c920aaaa, aba7a9c4, 44856787, 6bbfc9e4, 15375f46, d76b8666, adddab21, 73c0e342] | CORECT
+2026-02-04 22:41:08 | Teatru (12-Mai) | Sold: 8850.00 | Vanzari: [6d6307af, 88c02cfb, 1474d65e, 79b42d49, 7cc27414, 942e304b, 6a2fcbf3, d69081b6, 58e01e0f, bd94d1d1, 804e308f, 0ed5e534, 4cc76fe7, db401926, e91414e6, 810227c8, 99897717, 0643fe4e, e1dbbc5e, 3d6a5ea9, f3060b1f, 8dacd1f4, ed7d7c0c, 20c13150] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:41:28 | Opera (10-Mai) | Sold: 2600.00 | Vanzari: [1bc6f472, 531d849c, 9d7ed8bb, 48a07a72, 7dbe1dd5, d7b7ce89, 73fc699d] | CORECT
+2026-02-04 22:41:28 | Balet (11-Mai) | Sold: 4400.00 | Vanzari: [d2c324a8, 6f8c7aae, a5e3e7aa, 1b4e1b2f, 7ead96a3, c66546d5, ce2729a4] | CORECT
+2026-02-04 22:41:28 | Teatru (12-Mai) | Sold: 3750.00 | Vanzari: [cb7743f3, ebf8d163, 827e7bd0, e92e850f, c08ae095, 9f68502b, 14c28600, 2c1e293d] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:41:33 | Opera (10-Mai) | Sold: 2700.00 | Vanzari: [1bc6f472, 531d849c, 9d7ed8bb, 48a07a72, 7dbe1dd5, d7b7ce89, 73fc699d, ef5ced23] | CORECT
+2026-02-04 22:41:33 | Balet (11-Mai) | Sold: 6600.00 | Vanzari: [d2c324a8, 6f8c7aae, a5e3e7aa, 1b4e1b2f, 7ead96a3, c66546d5, ce2729a4, c0a0476b, 5bc895bf, c0b432b8, fa149b65, f7fe01fe, a012def5] | CORECT
+2026-02-04 22:41:33 | Teatru (12-Mai) | Sold: 5250.00 | Vanzari: [cb7743f3, ebf8d163, 827e7bd0, e92e850f, c08ae095, 9f68502b, 14c28600, 2c1e293d, 8d7797af, 73e0c23a, af2fc22d] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:42:04 | Opera (10-Mai) | Sold: 1500.00 | Vanzari: [4a9b951b, 0619ff9d, 0606bbaa, 885d23a6, 42a2ce3e] | CORECT
+2026-02-04 22:42:04 | Balet (11-Mai) | Sold: 4000.00 | Vanzari: [09d35bad, acd6e72f, ee59d59b, 31dea2a8, 4dff6688, 68478cd5] | CORECT
+2026-02-04 22:42:04 | Teatru (12-Mai) | Sold: 2250.00 | Vanzari: [306e3390, 1e4bc4e5, 78eeab65, 1d3bf85b] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:42:09 | Opera (10-Mai) | Sold: 1600.00 | Vanzari: [4a9b951b, 0619ff9d, 0606bbaa, 885d23a6, 42a2ce3e, 75ad9075] | CORECT
+2026-02-04 22:42:09 | Balet (11-Mai) | Sold: 6000.00 | Vanzari: [09d35bad, acd6e72f, ee59d59b, 31dea2a8, 4dff6688, 68478cd5, 849311f7, 0ee7a871, 464b0beb, 64144884, acbbc06d] | CORECT
+2026-02-04 22:42:09 | Teatru (12-Mai) | Sold: 3150.00 | Vanzari: [306e3390, 1e4bc4e5, 78eeab65, 1d3bf85b, c1c572ae, a5c63c9a] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:42:43 | Opera (10-Mai) | Sold: 200.00 | Vanzari: [ba143056] | CORECT
+2026-02-04 22:42:43 | Balet (11-Mai) | Sold: 0.00 | Vanzari: [] | CORECT
+2026-02-04 22:42:43 | Teatru (12-Mai) | Sold: 600.00 | Vanzari: [d1e3223c] | CORECT
+------------------------------------------------------------
+
+2026-02-04 22:42:48 | Opera (10-Mai) | Sold: 200.00 | Vanzari: [ba143056] | CORECT
+2026-02-04 22:42:48 | Balet (11-Mai) | Sold: 800.00 | Vanzari: [763f9795] | CORECT
+2026-02-04 22:42:48 | Teatru (12-Mai) | Sold: 1200.00 | Vanzari: [d1e3223c, b08cca1c] | CORECT
+------------------------------------------------------------
+
+2026-02-05 08:27:25 | Opera (10-Mai) | Sold: 2100.00 | Vanzari: [42b1a138, 0f13ced6, 995f8059, 48b00b60, 8d5ee6e9, b79dc346] | CORECT
+2026-02-05 08:27:25 | Balet (11-Mai) | Sold: 2200.00 | Vanzari: [7885ca29, 4557c0a8, a25e13e9] | CORECT
+2026-02-05 08:27:25 | Teatru (12-Mai) | Sold: 3000.00 | Vanzari: [9dafeab3, c956fdb5, 991a11b2, 1122d1f3, 20bd9029, 062a3ad1, 4bbc279d] | CORECT
+------------------------------------------------------------
+
+2026-02-05 08:27:30 | Opera (10-Mai) | Sold: 2300.00 | Vanzari: [42b1a138, 0f13ced6, 995f8059, 48b00b60, 8d5ee6e9, b79dc346, 7b848357] | CORECT
+2026-02-05 08:27:30 | Balet (11-Mai) | Sold: 3000.00 | Vanzari: [7885ca29, 4557c0a8, a25e13e9, f16f6faa, 7d1be0a5, bde3e4cb] | CORECT
+2026-02-05 08:27:30 | Teatru (12-Mai) | Sold: 4200.00 | Vanzari: [9dafeab3, c956fdb5, 991a11b2, 1122d1f3, 20bd9029, 062a3ad1, 4bbc279d, 9a90842d, 5ae0b9b7, d5321ec8, 6f81ce8c, 55165a0a] | CORECT
+------------------------------------------------------------
+
+2026-02-05 08:27:35 | Opera (10-Mai) | Sold: 3100.00 | Vanzari: [42b1a138, 0f13ced6, 995f8059, 48b00b60, 8d5ee6e9, b79dc346, 7b848357, 3e9ebe66, c99bfe6b, f2d007c4] | CORECT
+2026-02-05 08:27:35 | Balet (11-Mai) | Sold: 6200.00 | Vanzari: [7885ca29, 4557c0a8, a25e13e9, f16f6faa, 7d1be0a5, bde3e4cb, 7419c129, 3d3c14c8, 271c6ad1, 0ec7b9f3, c506843e] | CORECT
+2026-02-05 08:27:35 | Teatru (12-Mai) | Sold: 5850.00 | Vanzari: [9dafeab3, c956fdb5, 991a11b2, 1122d1f3, 20bd9029, 062a3ad1, 4bbc279d, 9a90842d, 5ae0b9b7, d5321ec8, 6f81ce8c, 55165a0a, c4720b0c, 868d2f9a, b4d8c166] | CORECT
+------------------------------------------------------------
+
+2026-02-05 08:27:40 | Opera (10-Mai) | Sold: 4100.00 | Vanzari: [42b1a138, 0f13ced6, 995f8059, 48b00b60, 8d5ee6e9, b79dc346, 7b848357, 3e9ebe66, c99bfe6b, f2d007c4, eb90c9ba, adcd9360, 128503ac, 227d67f1, 0960a81b, 4c54ff6b] | CORECT
+2026-02-05 08:27:40 | Balet (11-Mai) | Sold: 6800.00 | Vanzari: [7885ca29, 4557c0a8, a25e13e9, f16f6faa, 7d1be0a5, bde3e4cb, 7419c129, 3d3c14c8, 271c6ad1, 0ec7b9f3, c506843e, 6090eaa2, 48a67c0e] | CORECT
+2026-02-05 08:27:40 | Teatru (12-Mai) | Sold: 7500.00 | Vanzari: [9dafeab3, c956fdb5, 991a11b2, 1122d1f3, 20bd9029, 062a3ad1, 4bbc279d, 9a90842d, 5ae0b9b7, d5321ec8, 6f81ce8c, 55165a0a, c4720b0c, 868d2f9a, b4d8c166, dbe49184, 6417d483, b9464557, 27a0d96e, d49c52b6, 480c1c11] | CORECT
+------------------------------------------------------------
+

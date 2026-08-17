@@ -1,0 +1,1601 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/MinGW/mingw64/bin/cc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/MinGW/mingw64/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-24cxnm"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-24cxnm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-24cxnm'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_efcef
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -c C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc99I8xf.s
+        GNU C17 (Rev5, Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C17 (Rev5, Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 9904f531f084fcea0470441e88ced2da
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc99I8xf.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -v -Wl,-v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -o cmTC_efcef.exe -Wl,--out-implib,libcmTC_efcef.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe
+        COLLECT_LTO_WRAPPER=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efcef.exe' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccgXWB1g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efcef.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_efcef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        collect2 version 10.3.0
+        C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccgXWB1g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efcef.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_efcef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.36.1\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efcef.exe' '-mtune=generic' '-march=x86-64'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [C:/Program Files/MinGW/mingw64/include]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include;C:/Program Files/MinGW/mingw64/include;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-24cxnm']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_efcef]
+        ignore line: [[1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -c C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc99I8xf.s]
+        ignore line: [GNU C17 (Rev5  Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Rev5  Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 9904f531f084fcea0470441e88ced2da]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc99I8xf.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -v -Wl -v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj -o cmTC_efcef.exe -Wl --out-implib libcmTC_efcef.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_efcef.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccgXWB1g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efcef.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_efcef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccgXWB1g.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_efcef.exe] ==> ignore
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_efcef.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [collect2 version 10.3.0]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccgXWB1g.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_efcef.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_efcef.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_efcef.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o\x0d]
+        linker tool for 'C': C:/PROGRA~1/MinGW/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc] ==> [C:/Program Files/MinGW/mingw64/lib/gcc]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> [C:/Program Files/MinGW/mingw64/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> [C:/Program Files/MinGW/mingw64/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/default-manifest.o;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        implicit dirs: [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0;C:/Program Files/MinGW/mingw64/lib/gcc;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib;C:/Program Files/MinGW/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MinGW/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.36.1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjenxb"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjenxb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjenxb'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d6ad5
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (Rev5, Built by MSYS2 project) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccmQNdoR.s
+        GNU C++14 (Rev5, Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"
+        ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/include"
+        ignoring nonexistent directory "/mingw64/include"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"
+        ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        GNU C++14 (Rev5, Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 1f1065dc6484f05d65eade25a68aa4cd
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccmQNdoR.s
+        GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
+        COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'\x0d
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -v -Wl,-v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d6ad5.exe -Wl,--out-implib,libcmTC_d6ad5.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912'
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 10.3.0 (Rev5, Built by MSYS2 project) 
+        COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6ad5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc8a55w1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6ad5.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6ad5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        collect2 version 10.3.0
+        C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc8a55w1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6ad5.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6ad5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.36.1\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6ad5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+          add: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0] ==> [C:/Program Files/MinGW/mingw64/include/c++/10.3.0]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32] ==> [C:/Program Files/MinGW/mingw64/include/c++/10.3.0/x86_64-w64-mingw32]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward] ==> [C:/Program Files/MinGW/mingw64/include/c++/10.3.0/backward]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include] ==> [C:/Program Files/MinGW/mingw64/include]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        collapse include dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Program Files/MinGW/mingw64/include/c++/10.3.0;C:/Program Files/MinGW/mingw64/include/c++/10.3.0/x86_64-w64-mingw32;C:/Program Files/MinGW/mingw64/include/c++/10.3.0/backward;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include;C:/Program Files/MinGW/mingw64/include;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kjenxb']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d6ad5]
+        ignore line: [[1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccmQNdoR.s]
+        ignore line: [GNU C++14 (Rev5  Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/include"]
+        ignore line: [ignoring nonexistent directory "/mingw64/include"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/PROGRA~1/MinGW/mingw64/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "D:/a/_temp/msys/msys64/mingw64/x86_64-w64-mingw32/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/x86_64-w64-mingw32]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include/c++/10.3.0/backward]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../include]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed]
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Rev5  Built by MSYS2 project) version 10.3.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 1f1065dc6484f05d65eade25a68aa4cd]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\ciuis\\AppData\\Local\\Temp\\ccmQNdoR.s]
+        ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
+        ignore line: [COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'\x0d]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -v -Wl -v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_d6ad5.exe -Wl --out-implib libcmTC_d6ad5.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-10.3.0/configure --prefix=/mingw64 --with-local-prefix=/mingw64/local --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --with-native-system-header-dir=/mingw64/x86_64-w64-mingw32/include --libexecdir=/mingw64/lib --enable-bootstrap --enable-checking=release --with-arch=x86-64 --with-tune=generic --enable-languages=c,lto,c++,fortran,ada,objc,obj-c++,jit --enable-shared --enable-static --enable-libatomic --enable-threads=posix --enable-graphite --enable-fully-dynamic-string --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-lto --enable-libgomp --disable-multilib --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-libiconv --with-system-zlib --with-gmp=/mingw64 --with-mpfr=/mingw64 --with-mpc=/mingw64 --with-isl=/mingw64 --with-pkgversion='Rev5, Built by MSYS2 project' --with-bugurl=https://github.com/msys2/MINGW-packages/issues --with-gnu-as --with-gnu-ld --with-boot-ldflags='-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc' 'LDFLAGS_FOR_TARGET=-pipe -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high' --enable-linker-plugin-flags='LDFLAGS=-static-libstdc++\\ -static-libgcc\\ -pipe\\ -Wl,--dynamicbase,--high-entropy-va,--nxcompat,--default-image-base-high\\ -Wl,--stack,12582912']
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 10.3.0 (Rev5  Built by MSYS2 project) ]
+        ignore line: [COMPILER_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d6ad5.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc8a55w1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6ad5.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6ad5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
+          arg [-plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc8a55w1.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_d6ad5.exe] ==> ignore
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_d6ad5.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [collect2 version 10.3.0]
+        ignore line: [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ciuis\\AppData\\Local\\Temp\\cc8a55w1.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_d6ad5.exe C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LC:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. -v CMakeFiles/cmTC_d6ad5.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_d6ad5.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o\x0d]
+        linker tool for 'CXX': C:/PROGRA~1/MinGW/mingw64/x86_64-w64-mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc] ==> [C:/Program Files/MinGW/mingw64/lib/gcc]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> [C:/Program Files/MinGW/mingw64/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/PROGRA~1/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> [C:/Program Files/MinGW/mingw64/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/crt2.o;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib/default-manifest.o;C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        implicit dirs: [C:/Program Files/MinGW/mingw64/lib/gcc/x86_64-w64-mingw32/10.3.0;C:/Program Files/MinGW/mingw64/lib/gcc;C:/Program Files/MinGW/mingw64/x86_64-w64-mingw32/lib;C:/Program Files/MinGW/mingw64/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MinGW/mingw64/x86_64-w64-mingw32/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.36.1
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4jne50"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4jne50"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4jne50'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_72c5f
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_72c5f.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4jne50/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_72c5f.dir/test_mpi.c.obj -o cmTC_72c5f.exe -Wl,--out-implib,libcmTC_72c5f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i9g4f1"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i9g4f1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i9g4f1'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_49c24
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_49c24.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i9g4f1/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_49c24.dir/test_mpi.cpp.obj -o cmTC_49c24.exe -Wl,--out-implib,libcmTC_49c24.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e5ztqy"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e5ztqy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e5ztqy'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d24bc
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_d24bc.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e5ztqy/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_d24bc.dir/test_mpi.cpp.obj -o cmTC_d24bc.exe -Wl,--out-implib,libcmTC_d24bc.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e0b4rw"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e0b4rw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e0b4rw'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_145af
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_145af.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-e0b4rw/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_145af.dir/test_mpi.c.obj -o cmTC_145af.exe -Wl,--out-implib,libcmTC_145af.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jc5o0"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jc5o0"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jc5o0'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_c6bc8
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_c6bc8.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jc5o0/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_c6bc8.dir/test_mpi.cpp.obj -o cmTC_c6bc8.exe -Wl,--out-implib,libcmTC_c6bc8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g1zs9q"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g1zs9q"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g1zs9q'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_8788b
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_8788b.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g1zs9q/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_8788b.dir/test_mpi.cpp.obj -o cmTC_8788b.exe -Wl,--out-implib,libcmTC_8788b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7pt212"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7pt212"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7pt212'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_299b0
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"  -o CMakeFiles/cmTC_299b0.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7pt212/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_299b0.dir/test_mpi.c.obj -o cmTC_299b0.exe -Wl,--out-implib,libcmTC_299b0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1vyyi"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1vyyi"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1vyyi'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_e9098
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_e9098.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-j1vyyi/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_e9098.dir/test_mpi.cpp.obj -o cmTC_e9098.exe -Wl,--out-implib,libcmTC_e9098.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0r1lvr"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0r1lvr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0r1lvr'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_056ec
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_056ec.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0r1lvr/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_056ec.dir/test_mpi.cpp.obj -o cmTC_056ec.exe -Wl,--out-implib,libcmTC_056ec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ptc26g"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ptc26g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ptc26g'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_bc821
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_bc821.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-ptc26g/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_bc821.dir/test_mpi.c.obj -o cmTC_bc821.exe -Wl,--out-implib,libcmTC_bc821.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g298d4"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g298d4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g298d4'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7ca33
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_7ca33.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g298d4/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_7ca33.dir/test_mpi.cpp.obj -o cmTC_7ca33.exe -Wl,--out-implib,libcmTC_7ca33.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qrqa79"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qrqa79"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qrqa79'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_df063
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_df063.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-qrqa79/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_df063.dir/test_mpi.cpp.obj -o cmTC_df063.exe -Wl,--out-implib,libcmTC_df063.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vguzg3"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vguzg3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vguzg3'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_95d90
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"  -o CMakeFiles/cmTC_95d90.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vguzg3/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_95d90.dir/test_mpi.c.obj -o cmTC_95d90.exe -Wl,--out-implib,libcmTC_95d90.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vo58q9"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vo58q9"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vo58q9'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_34bb4
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_34bb4.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vo58q9/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_34bb4.dir/test_mpi.cpp.obj -o cmTC_34bb4.exe -Wl,--out-implib,libcmTC_34bb4.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i8hpzp"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i8hpzp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i8hpzp'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_de8bf
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_de8bf.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-i8hpzp/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_de8bf.dir/test_mpi.cpp.obj -o cmTC_de8bf.exe -Wl,--out-implib,libcmTC_de8bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0b9hqv"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0b9hqv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0b9hqv'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6e9e8
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"  -o CMakeFiles/cmTC_6e9e8.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0b9hqv/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_6e9e8.dir/test_mpi.c.obj -o cmTC_6e9e8.exe -Wl,--out-implib,libcmTC_6e9e8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zedojw"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zedojw"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zedojw'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_734b5
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_734b5.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-zedojw/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_734b5.dir/test_mpi.cpp.obj -o cmTC_734b5.exe -Wl,--out-implib,libcmTC_734b5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-d6n646"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-d6n646"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-d6n646'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_03f5b
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_03f5b.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-d6n646/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_03f5b.dir/test_mpi.cpp.obj -o cmTC_03f5b.exe -Wl,--out-implib,libcmTC_03f5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rz2pjg"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rz2pjg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rz2pjg'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1f4a5
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_1f4a5.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rz2pjg/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_1f4a5.dir/test_mpi.c.obj -o cmTC_1f4a5.exe -Wl,--out-implib,libcmTC_1f4a5.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a79ohq"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a79ohq"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a79ohq'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6e35c
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_6e35c.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-a79ohq/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_6e35c.dir/test_mpi.cpp.obj -o cmTC_6e35c.exe -Wl,--out-implib,libcmTC_6e35c.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfwo19"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfwo19"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfwo19'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_44685
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_44685.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfwo19/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_44685.dir/test_mpi.cpp.obj -o cmTC_44685.exe -Wl,--out-implib,libcmTC_44685.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hrdwba"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hrdwba"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hrdwba'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9d880
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_9d880.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hrdwba/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_9d880.dir/test_mpi.c.obj -o cmTC_9d880.exe -Wl,--out-implib,libcmTC_9d880.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4anhqa"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4anhqa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4anhqa'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6ee9f
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_6ee9f.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4anhqa/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_6ee9f.dir/test_mpi.cpp.obj -o cmTC_6ee9f.exe -Wl,--out-implib,libcmTC_6ee9f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-umzrvm"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-umzrvm"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-umzrvm'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_74038
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_74038.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-umzrvm/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_74038.dir/test_mpi.cpp.obj -o cmTC_74038.exe -Wl,--out-implib,libcmTC_74038.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-77sf7t"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-77sf7t"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-77sf7t'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_3c214
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_3c214.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-77sf7t/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_3c214.dir/test_mpi.c.obj -o cmTC_3c214.exe -Wl,--out-implib,libcmTC_3c214.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f03444"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f03444"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f03444'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7a9dd
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_7a9dd.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-f03444/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_7a9dd.dir/test_mpi.cpp.obj -o cmTC_7a9dd.exe -Wl,--out-implib,libcmTC_7a9dd.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2l763k"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2l763k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2l763k'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_118c0
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_118c0.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-2l763k/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_118c0.dir/test_mpi.cpp.obj -o cmTC_118c0.exe -Wl,--out-implib,libcmTC_118c0.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t0q23c"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t0q23c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t0q23c'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_9b3cb
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include"  -o CMakeFiles/cmTC_9b3cb.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-t0q23c/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_9b3cb.dir/test_mpi.c.obj -o cmTC_9b3cb.exe -Wl,--out-implib,libcmTC_9b3cb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-13p5ns"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-13p5ns"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-13p5ns'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_c3e53
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_c3e53.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-13p5ns/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_c3e53.dir/test_mpi.cpp.obj -o cmTC_c3e53.exe -Wl,--out-implib,libcmTC_c3e53.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rsc7h1"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rsc7h1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rsc7h1'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_c78a8
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -o CMakeFiles/cmTC_c78a8.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rsc7h1/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_c78a8.dir/test_mpi.cpp.obj -o cmTC_c78a8.exe -Wl,--out-implib,libcmTC_c78a8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sr9qc0"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sr9qc0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sr9qc0'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_1fc7a
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_1fc7a.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-sr9qc0/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_1fc7a.dir/test_mpi.c.obj -o cmTC_1fc7a.exe -Wl,--out-implib,libcmTC_1fc7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tegbuk"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tegbuk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tegbuk'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_70481
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_70481.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-tegbuk/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_70481.dir/test_mpi.cpp.obj -o cmTC_70481.exe -Wl,--out-implib,libcmTC_70481.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jbpcy"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jbpcy"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jbpcy'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_cfe6a
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_cfe6a.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-8jbpcy/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_cfe6a.dir/test_mpi.cpp.obj -o cmTC_cfe6a.exe -Wl,--out-implib,libcmTC_cfe6a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0rfpht"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0rfpht"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0rfpht'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_515ca
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -fdiagnostics-color=always -o CMakeFiles/cmTC_515ca.dir/test_mpi.c.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0rfpht/test_mpi.c"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\cc.exe   CMakeFiles/cmTC_515ca.dir/test_mpi.c.obj -o cmTC_515ca.exe -Wl,--out-implib,libcmTC_515ca.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1326 (_MPI_try_staged_settings)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1649 (_MPI_check_lang_works)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode normal"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hqjreg"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hqjreg"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hqjreg'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_d8ff9
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_d8ff9.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-hqjreg/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_d8ff9.dir/test_mpi.cpp.obj -o cmTC_d8ff9.exe -Wl,--out-implib,libcmTC_d8ff9.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1282 (try_compile)"
+      - "C:/Users/ciuis/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindMPI.cmake:1676 (_MPI_try_staged_settings)"
+      - "CMakeLists.txt:5 (find_package)"
+    description: "The MPI test test_mpi for CXX in mode MPICXX"
+    directories:
+      source: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7qu0nd"
+      binary: "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7qu0nd"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "MPI_RESULT_CXX_test_mpi_MPICXX"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7qu0nd'
+        
+        Run Build Command(s): C:/Users/ciuis/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_e27ef
+        [1/2] C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE  -isystem "C:/Program Files (x86)/Microsoft SDKs/MPI/Include" -std=gnu++2a -fdiagnostics-color=always -o CMakeFiles/cmTC_e27ef.dir/test_mpi.cpp.obj -c "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-03/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7qu0nd/test_mpi.cpp"
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\PROGRA~1\\MinGW\\mingw64\\bin\\C__~1.EXE   CMakeFiles/cmTC_e27ef.dir/test_mpi.cpp.obj -o cmTC_e27ef.exe -Wl,--out-implib,libcmTC_e27ef.dll.a -Wl,--major-image-version,0,--minor-image-version,0  "C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib"  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

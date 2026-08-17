@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-button (click)="dismiss()">Close</ion-button>
+    </ion-buttons>
+    <ion-title>All Locations ({{ markers.length || 0 }})</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="multi-map-container" style="height: 100%; width: 100%;">
+    <div *ngIf="markers.length === 0" class="ion-text-center ion-padding">
+      <ion-text color="medium">
+        <p>No resources with location data found for your account.</p>
+        <p>Please ensure you have added latitude and longitude on the Edit page for your items.</p>
+      </ion-text>
+    </div>
+  </div>
+</ion-content>

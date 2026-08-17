@@ -1,0 +1,6 @@
+Structura AutomatFinit:
+    stari: Set<String>
+    alfabet: Set<String>
+    stare_initiala: String
+    stari_finale: Set<String>
+    tranzitii: Map<(String, String), Set<String>>

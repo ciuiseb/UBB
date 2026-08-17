@@ -1,0 +1,13 @@
+Q: Start, Decimal, Is_Zero_Or_Prefix, Octal, Hex_Prefix, Hex, Negative_Prefix, Binary_Prefix, Binary; 
+Σ: 0,1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,a,b,c,d,e,f,x,X,b,B,-; 
+q0: Start; 
+F: Decimal, Is_Zero_Or_Prefix, Octal, Hex, Binary; 
+Tranzitii: 
+	Start: (1,Decimal),(2,Decimal),(3,Decimal),(4,Decimal),(5,Decimal),(6,Decimal),(7,Decimal),(8,Decimal),(9,Decimal),(0,Is_Zero_Or_Prefix),(-,Negative_Prefix); 
+	Decimal: (0,Decimal),(1,Decimal),(2,Decimal),(3,Decimal),(4,Decimal),(5,Decimal),(6,Decimal),(7,Decimal),(8,Decimal),(9,Decimal); 
+	Is_Zero_Or_Prefix: (0,Octal),(1,Octal),(2,Octal),(3,Octal),(4,Octal),(5,Octal),(6,Octal),(7,Octal),(x,Hex_Prefix),(X,Hex_Prefix),(b,Binary_Prefix),(B,Binary_Prefix); 
+	Octal: (0,Octal),(1,Octal),(2,Octal),(3,Octal),(4,Octal),(5,Octal),(6,Octal),(7,Octal); Hex_Prefix: (0,Hex),(1,Hex),(2,Hex),(3,Hex),(4,Hex),(5,Hex),(6,Hex),(7,Hex),(8,Hex),(9,Hex),(a,Hex),(b,Hex),(c,Hex),(d,Hex),(e,Hex),(f,Hex),(A,Hex),(B,Hex),(C,Hex),(D,Hex),(E,Hex),(F,Hex); 
+	Hex: (0,Hex),(1,Hex),(2,Hex),(3,Hex),(4,Hex),(5,Hex),(6,Hex),(7,Hex),(8,Hex),(9,Hex),(a,Hex),(b,Hex),(c,Hex),(d,Hex),(e,Hex),(f,Hex),(A,Hex),(B,Hex),(C,Hex),(D,Hex),(E,Hex),(F,Hex); 
+	Negative_Prefix: (1,Decimal),(2,Decimal),(3,Decimal),(4,Decimal),(5,Decimal),(6,Decimal),(7,Decimal),(8,Decimal),(9,Decimal),(0,Is_Zero_Or_Prefix); 
+	Binary_Prefix: (0,Binary),(1,Binary); Binary: (0,Binary),(1,Binary); 
+	;

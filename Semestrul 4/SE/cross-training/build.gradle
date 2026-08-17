@@ -1,0 +1,76 @@
+import org.jetbrains.compose.desktop.application.dsl.TargetFormat
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.8.10'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.8.10'
+    id 'org.jetbrains.compose' version '1.4.3'
+    id 'org.jetbrains.kotlin.plugin.jpa' version '1.8.10'
+}
+
+repositories {
+    google()
+    mavenCentral()
+    maven { url "https://maven.pkg.jetbrains.space/public/p/compose/dev" }
+    maven { url "https://jitpack.io" }
+}
+
+dependencies {
+    implementation(compose.desktop.currentOs)
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation 'org.xerial:sqlite-jdbc:3.41.2.2'
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-swing:1.7.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0"
+    implementation "org.jetbrains.kotlinx:kotlinx-datetime:0.4.1"
+
+    implementation 'org.hibernate.orm:hibernate-core:6.4.4.Final'
+    implementation 'org.hibernate.validator:hibernate-validator:8.0.0.Final'
+    implementation 'org.hibernate.orm:hibernate-community-dialects:6.4.4.Final'
+
+    implementation 'javax.persistence:javax.persistence-api:2.2'
+    implementation 'org.hibernate.common:hibernate-commons-annotations:6.0.6.Final'
+
+    implementation "org.jetbrains.compose.material3:material3-desktop:1.4.3"
+    implementation "org.jetbrains.compose.material:material-icons-extended-desktop:1.4.3"
+    implementation "org.jetbrains.compose.animation:animation-desktop:1.4.3"
+
+    implementation("io.ktor:ktor-client-core:2.3.7")
+    implementation("io.ktor:ktor-client-cio:2.3.7")
+    implementation("io.ktor:ktor-client-content-negotiation:2.3.7")
+    implementation("io.ktor:ktor-serialization-kotlinx-json:2.3.7")
+
+    implementation("ch.qos.logback:logback-classic:1.4.14")
+}
+
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+tasks.withType(KotlinCompile).configureEach {
+    kotlinOptions.jvmTarget = "17"
+}
+
+compose.desktop {
+    application {
+        mainClass = "MainKt"
+        nativeDistributions {
+            targetFormats(
+                    TargetFormat.Dmg,
+                    TargetFormat.Msi,
+                    TargetFormat.Deb
+            )
+            packageName = "RunningTrainingApp"
+            packageVersion = "1.0.0"
+
+            windows {
+                menu = true
+                menuGroup = "Running Training Apps"
+                upgradeUuid = "18159995-d967-4CD2-8885-77BFA97CFA9F"
+            }
+        }
+    }
+}

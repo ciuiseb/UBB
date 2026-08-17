@@ -1,0 +1,3 @@
+keywords: daca, atunci, sfdaca
+punctuatie: ), (
+ID

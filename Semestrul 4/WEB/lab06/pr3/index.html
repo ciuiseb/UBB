@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestiune Studenți</title>
+</head>
+<body>
+<h1>Gestiune Studenți</h1>
+
+<div>
+    <h3>Lista Studenți</h3>
+    <select id="studentList" size="10">
+    </select>
+</div>
+
+<div>
+    <h3>Detalii Student</h3>
+    <form id="studentForm">
+        <label>Nume:</label>
+        <input type="text" id="nume" name="nume"><br><br>
+
+        <label>Prenume:</label>
+        <input type="text" id="prenume" name="prenume"><br><br>
+
+        <label>Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+
+        <button type="button" id="saveBtn" disabled>Save</button>
+    </form>
+</div>
+
+<script>
+    let currentStudentId = null;
+    let originalData = {};
+    let hasChanges = false;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadStudentList();
+
+        document.getElementById('studentList').addEventListener('change', handleStudentSelection);
+        document.getElementById('studentForm').addEventListener('input', handleFormChange);
+        document.getElementById('saveBtn').addEventListener('click', saveStudent);
+    });
+
+    function loadStudentList() {
+        fetch('server.php?action=getAll')
+            .then(response => response.json())
+            .then(data => {
+                const select = document.getElementById('studentList');
+                select.innerHTML = '';
+
+                data.forEach(student => {
+                    const option = document.createElement('option');
+                    option.value = student.id;
+                    option.textContent = `${student.nume} ${student.prenume}`;
+                    select.appendChild(option);
+                });
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    function handleStudentSelection() {
+        const selectedId = document.getElementById('studentList').value;
+
+        if (hasChanges) {
+            if (confirm('Datele s-au modificat. Doriți să le salvați înainte?')) {
+                saveStudent();
+                return;
+            }
+        }
+
+        if (selectedId) {
+            loadStudentData(selectedId);
+        }
+    }
+
+    function loadStudentData(id) {
+        fetch(`server.php?action=getStudent&id=${id}`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    alert('Error: ' + data.error);
+                    return;
+                }
+
+                document.getElementById('nume').value = data.nume || '';
+                document.getElementById('prenume').value = data.prenume || '';
+                document.getElementById('email').value = data.email || '';
+
+                currentStudentId = id;
+                originalData = {
+                    nume: data.nume || '',
+                    prenume: data.prenume || '',
+                    email: data.email || ''
+                };
+
+                hasChanges = false;
+                document.getElementById('saveBtn').disabled = true;
+            })
+            .catch(error => console.error('Error:', error));
+    }
+
+    function handleFormChange() {
+        const currentData = {
+            nume: document.getElementById('nume').value,
+            prenume: document.getElementById('prenume').value,
+            email: document.getElementById('email').value
+        };
+
+        hasChanges = JSON.stringify(currentData) !== JSON.stringify(originalData);
+        document.getElementById('saveBtn').disabled = !hasChanges;
+    }
+
+    function saveStudent() {
+        if (!currentStudentId) return;
+
+        const data = {
+            action: 'updateStudent',
+            id: currentStudentId,
+            nume: document.getElementById('nume').value,
+            prenume: document.getElementById('prenume').value,
+            email: document.getElementById('email').value
+        };
+
+        fetch('server.php', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        })
+            .then(response => response.json())
+            .then(result => {
+                if (result.success) {
+                    alert('Student salvat cu succes!');
+                    hasChanges = false;
+                    document.getElementById('saveBtn').disabled = true;
+                    originalData = {
+                        nume: data.nume,
+                        prenume: data.prenume,
+                        email: data.email
+                    };
+                    loadStudentList();
+                } else {
+                    alert('Eroare: ' + result.error);
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Eroare la salvare');
+            });
+    }
+</script>
+</body>
+</html>

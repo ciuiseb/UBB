@@ -1,0 +1,7 @@
+server.port=5000
+server.shows_file=files/spectacole.txt
+server.pool_size=10
+server.t_max=10
+server.audit_interval=5
+client.count=10
+test.running-time=180

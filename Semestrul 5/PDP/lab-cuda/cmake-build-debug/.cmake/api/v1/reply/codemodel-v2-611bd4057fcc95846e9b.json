@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.25"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab_cuda",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cuda_threads::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cuda_threads-Debug-1ca859f7bbdc4e4ae908.json",
+					"name" : "cuda_threads",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gen_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gen_data-Debug-82886b97d67832e19dcf.json",
+					"name" : "gen_data",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda/cmake-build-debug",
+		"source" : "C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/lab-cuda"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

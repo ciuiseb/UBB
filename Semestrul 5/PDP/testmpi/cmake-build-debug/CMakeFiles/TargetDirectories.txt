@@ -1,0 +1,3 @@
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/testmpi/cmake-build-debug/CMakeFiles/testmpi.dir
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/testmpi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ciuis/Desktop/FACULTATE/ANUL III/SEM I/PPD/testmpi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

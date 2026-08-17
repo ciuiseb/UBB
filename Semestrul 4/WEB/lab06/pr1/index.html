@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectare Stații Tren</title>
+</head>
+<body>
+<h1>Selectare Stații pentru Trenuri</h1>
+
+<div>
+    <h3>Stații de plecare:</h3>
+    <ul id="lista-plecare">
+    </ul>
+</div>
+
+<div>
+    <h3>Stații de sosire:</h3>
+    <ul id="lista-sosire">
+        <li>Selectează o stație de plecare</li>
+    </ul>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        fetch('server.php?action=getAll')
+            .then(response => response.json())
+            .then(data => {
+                const lista = document.getElementById('lista-plecare');
+                lista.innerHTML = '';
+
+                data.forEach(statie => {
+                    const li = document.createElement('li');
+                    li.innerHTML = `<a href="#" onclick="selecteazaStatie(${statie.id}); return false;">${statie.nume}</a>`;
+                    lista.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Eroare:', error));
+    });
+
+    function selecteazaStatie(id) {
+        fetch(`server.php?action=getPossibleDestinations&id=${id}`)
+            .then(response => response.json())
+            .then(data => {
+                const lista = document.getElementById('lista-sosire');
+                lista.innerHTML = '';
+
+                if (data.length === 0) {
+                    lista.innerHTML = '<li>Nu există destinații disponibile</li>';
+                    return;
+                }
+
+                data.forEach(statie => {
+                    const li = document.createElement('li');
+                    li.textContent = statie.nume;
+                    lista.appendChild(li);
+                });
+            })
+            .catch(error => console.error('Eroare:', error));
+    }
+</script>
+</body>
+</html>

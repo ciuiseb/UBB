@@ -1,0 +1,23 @@
+<div style="width: 90%; height: 90%; margin: 30px">
+  <ion-chip color="success" *ngIf="networkStatus">Online</ion-chip>
+  <ion-chip color="danger" *ngIf="!networkStatus">Offline</ion-chip>
+  <ion-list>
+    <ion-item>
+      <ion-input label="Title" [(ngModel)]="book.name"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Author" [(ngModel)]="book.author"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-checkbox label-placement="end" [(ngModel)]="book.stars">Read Status
+      </ion-checkbox>
+    </ion-item>
+    <ion-item>
+      <ion-input label="Publishing Date" [(ngModel)]="book.publishing_date"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-datetime [(ngModel)]="book.publishing_date"></ion-datetime>
+    </ion-item>
+  </ion-list>
+  <ion-button (click)="addBook()">Add Book</ion-button>
+</div>

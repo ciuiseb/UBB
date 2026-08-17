@@ -1,0 +1,12 @@
+Initum {
+    Numerus a;
+    Numerus b;
+    Numerus rezultat;
+
+    Lege a;
+    Lege b;
+
+    rezultat accipe a * b * 1 + 9 - 1;
+
+    Scribe rezultat;
+} Finis

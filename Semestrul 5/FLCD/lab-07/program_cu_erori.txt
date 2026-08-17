@@ -1,0 +1,10 @@
+Import
+Initum {
+	Ratio r et perimetru et arie;
+	Lege r;
+	perimetru accipe 2 * r * 3.14;
+	arie accipe 3.14 * r ** 2;
+	Si(r == 2)
+	    Scribe perimetru;
+	}
+} Finis

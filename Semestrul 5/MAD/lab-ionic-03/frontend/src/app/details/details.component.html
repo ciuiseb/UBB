@@ -1,0 +1,53 @@
+<ion-content [fullscreen]="true" scroll-y="true">
+  <ion-card [@fade]>
+    <ion-card-header>
+      <ion-chip color="success" *ngIf="networkStatus">Online</ion-chip>
+      <ion-chip color="danger" *ngIf="!networkStatus">Offline</ion-chip>
+
+      <div *ngIf="book?.photo" class="ion-padding-bottom">
+        <img [src]="book?.photo" style="width: 100%; border-radius: 8px; object-fit: cover; max-height: 300px;"
+             alt="{{ book?.name }} Photo"/>
+      </div>
+
+      <ion-card-subtitle *ngIf="book?.stars">
+        <div style="color: green">Read!</div>
+      </ion-card-subtitle>
+
+      <ion-card-title>{{ book?.name }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="button">
+        <div style="display: flex; align-items: center">
+          The author is {{ book?.author }} and it was published on {{ book?.publishing_date | date }}
+        </div>
+        <div>
+          <ion-button href="/items/{{ book?.id }}/edit">Update</ion-button>
+          <ion-button href="/items/{{ book?.id }}/delete" color="danger">Delete</ion-button>
+
+          <ion-button
+            *ngIf="book?.photo"
+            (click)="downloadPhoto()"
+            color="tertiary"
+          >
+            <ion-icon slot="start" name="download-outline"></ion-icon>
+            Download
+          </ion-button>
+        </div>
+      </div>
+    </ion-card-content>
+  </ion-card>
+  <ion-card *ngIf="book?.latitude && book?.longitude">
+    <ion-card-header>
+      <ion-card-title>Resource Location</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <div id="display-map-container" style="height: 250px; width: 100%;"></div>
+
+      <ion-button expand="block" fill="outline" target="_blank"
+                  [href]="'https://www.google.com/maps/search/?api=1&query=' + book?.latitude + ',' + book?.longitude">
+        Open in External Map App
+      </ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

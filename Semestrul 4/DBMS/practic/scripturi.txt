@@ -1,0 +1,32 @@
+--creare
+create or alter table Cofetarii(
+	id integer identity(1,1) primary key , 
+	name varchar(100) not null, 
+	adresa varchar(100) not null, 
+	an_infiintare integer check(an_infiintare > 0 and an_infiintare <= 2025) 
+)
+
+create table Inghetate(
+	id integer identity(1,1) primary key, 
+	nume varchar(100) not null, 
+	ingrediente varchar(200) not null, 
+	valoare_vanzari_anul_precedent integer not null,
+	c_id integer not null
+	foreign key (c_id) references Cofetarii(id)
+)
+
+--select
+SELECT c.name
+FROM Cofetarii c
+WHERE EXISTS (
+    SELECT * FROM Inghetate i 
+    WHERE i.c_id = c.id AND i.name = 'inghetata de ciocolata'
+)
+AND NOT EXISTS (
+    SELECT * FROM Inghetate i 
+    WHERE i.c_id = c.id AND i.name = 'inghetata de vanilie'
+)
+
+--index
+CREATE NONCLUSTERED INDEX IX_Inghetate_c_id_name 
+ON Inghetate (c_id, name);

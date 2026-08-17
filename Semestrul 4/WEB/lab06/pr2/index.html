@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persoane - Paginare</title>
+</head>
+<body>
+<h1>Lista Persoane</h1>
+
+<table>
+    <thead>
+    <tr>
+        <th>Nume</th>
+        <th>Prenume</th>
+        <th>Telefon</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody id="persoane-tbody">
+    </tbody>
+</table>
+
+<div>
+    <button id="btn-previous" onclick="previousPage()">Previous</button>
+    <span id="page-info">Pagina 1</span>
+    <button id="btn-next" onclick="nextPage()">Next</button>
+</div>
+
+<script>
+    let currentPage = 1;
+    const limit = 3;
+
+    document.addEventListener('DOMContentLoaded', function() {
+        loadPage(currentPage);
+    });
+
+    function loadPage(page) {
+        fetch(`server.php?page=${page}&limit=${limit}`)
+            .then(response => response.json())
+            .then(data => {
+                const tbody = document.getElementById('persoane-tbody');
+                tbody.innerHTML = '';
+
+                data.data.forEach(persoana => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                            <td>${persoana.nume}</td>
+                            <td>${persoana.prenume}</td>
+                            <td>${persoana.telefon}</td>
+                            <td>${persoana.email}</td>
+                        `;
+                    tbody.appendChild(row);
+                });
+
+                document.getElementById('btn-previous').disabled = !data.has_previous;
+                document.getElementById('btn-next').disabled = !data.has_next;
+
+                document.getElementById('page-info').textContent = `Pagina ${data.current_page}`;
+
+                currentPage = data.current_page;
+            })
+            .catch(error => {
+                console.error('Eroare:', error);
+                document.getElementById('persoane-tbody').innerHTML =
+                    '<tr><td colspan="4">Eroare la încărcarea datelor</td></tr>';
+            });
+    }
+
+    function nextPage() {
+        loadPage(currentPage + 1);
+    }
+
+    function previousPage() {
+        loadPage(currentPage - 1);
+    }
+</script>
+</body>
+</html>

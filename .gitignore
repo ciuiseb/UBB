@@ -1,0 +1,96 @@
+# =========================
+# IDEs and Editors
+# =========================
+# JetBrains (IntelliJ, WebStorm, Rider, PyCharm, CLion)
+.idea/
+*.iml
+*.iws
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# =========================
+# Web / Node.js / Angular
+# =========================
+node_modules/
+dist/
+.angular/
+.npm/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# Unity3D
+# =========================
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+*.csproj
+*.unityproj
+*.sln
+
+# =========================
+# Java
+# =========================
+target/
+*.class
+*.war
+*.ear
+*.jar
+
+# =========================
+# C / C++
+# =========================
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.env
+
+# =========================
+# Massive Data Files
+# =========================
+*.log
+*.sqlite
+# Specifically ignoring your large PDP text files
+Semestrul 5/PDP/lab-02/common/*.txt
+# React / Ionic specific
+build/
+www/
+.ionic/
+coverage/
+.next/
